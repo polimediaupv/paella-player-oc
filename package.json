@@ -5,7 +5,7 @@
   "main": "devserver.js",
   "scripts": {
     "build": "webpack --mode production",
-    "test": "node devserver.js"
+    "test": "node devserver.mjs"
   },
   "keywords": [
     "opencast",

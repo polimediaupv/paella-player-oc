@@ -1,0 +1,1300 @@
+{
+    "search-results": {
+        "offset": 0,
+        "limit": 1,
+        "total": 1,
+        "searchTime": 102,
+        "query": "(id:df1eb5e0\\-ac13\\-11eb\\-acc9\\-41e86d35166f) AND oc_organization:mh_default_org AND (oc_acl_read:ROLE_ANONYMOUS) AND -oc_mediatype:Series AND -oc_deleted:[* TO *]",
+        "result": {
+            "id": "df1eb5e0-ac13-11eb-acc9-41e86d35166f",
+            "org": "mh_default_org",
+            "mediapackage": {
+                "duration": 9000040,
+                "id": "df1eb5e0-ac13-11eb-acc9-41e86d35166f",
+                "start": "2021-06-08T10:00:00Z",
+                "title": "SPIN UPV: Cuestiones jurídicas en spin-off 2021-06-08 12:00",
+                "series": "SHOW_PUBLIC_dc4a3ed0-9e8e-11eb-a622-2df49e277287",
+                "seriestitle": "PUBLIC_dc4a3ed0-9e8e-11eb-a622-2df49e277287",
+                "creators": {
+                    "creator": "Fernando Javier Conesa Cegarra"
+                },
+                "language": "spa",
+                "media": {
+                    "track": [
+                        {
+                            "id": "df9799da-82d1-48ee-a6f7-3cd629404770",
+                            "type": "presentation/delivery",
+                            "ref": "track:track-12",
+                            "mimetype": "video/mp4",
+                            "tags": {
+                                "tag": [
+                                    "engage-download",
+                                    "engage-streaming"
+                                ]
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/12818154-533d-473a-95ec-240ffa083c17/SCREEN.mp4",
+                            "checksum": {
+                                "type": "md5",
+                                "$": "a675935c9a017f2a6b38283be420ae91"
+                            },
+                            "duration": 9000040,
+                            "audio": {
+                                "id": "audio-1",
+                                "device": "",
+                                "encoder": {
+                                    "type": "AAC (Advanced Audio Coding)"
+                                },
+                                "framecount": 421875,
+                                "channels": 1,
+                                "samplingrate": 48000,
+                                "bitrate": 32685
+                            },
+                            "video": {
+                                "id": "video-1",
+                                "device": "",
+                                "encoder": {
+                                    "type": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10"
+                                },
+                                "framecount": 225001,
+                                "bitrate": 282147,
+                                "framerate": 25,
+                                "resolution": "854x480"
+                            },
+                            "live": false
+                        },
+                        {
+                            "id": "288f44e6-277f-46e1-bdef-eaf58cb3fef7",
+                            "type": "presenter/delivery",
+                            "ref": "track:track-11",
+                            "mimetype": "video/mp4",
+                            "tags": {
+                                "tag": [
+                                    "engage-download",
+                                    "engage-streaming"
+                                ]
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/1b57dc3d-2c24-4348-9b4f-d68c681cf5df/PRESENTER.mp4",
+                            "checksum": {
+                                "type": "md5",
+                                "$": "df9ea88eea4e3013c5f63c7b5c624c77"
+                            },
+                            "duration": 8999264,
+                            "audio": {
+                                "id": "audio-1",
+                                "device": "",
+                                "encoder": {
+                                    "type": "AAC (Advanced Audio Coding)"
+                                },
+                                "framecount": 421839,
+                                "channels": 1,
+                                "samplingrate": 48000,
+                                "bitrate": 32685
+                            },
+                            "video": {
+                                "id": "video-1",
+                                "device": "",
+                                "encoder": {
+                                    "type": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10"
+                                },
+                                "framecount": 224981,
+                                "bitrate": 642313,
+                                "framerate": 25,
+                                "resolution": "854x480"
+                            },
+                            "live": false
+                        },
+                        {
+                            "id": "2c51096c-8816-4219-855a-99ee2532c853",
+                            "type": "audio_ambient/upv",
+                            "ref": "track:track-0",
+                            "mimetype": "audio/m4a",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/29291aa8-49d7-43b9-9c50-b9574cd53604/PRESENTER.m4a",
+                            "checksum": {
+                                "type": "md5",
+                                "$": "015b1a18d1fce0c9d7ea1c001950da1f"
+                            },
+                            "duration": 9000010,
+                            "audio": {
+                                "id": "audio-1",
+                                "device": "",
+                                "encoder": {
+                                    "type": "AAC (Advanced Audio Coding)"
+                                },
+                                "framecount": 421874,
+                                "channels": 1,
+                                "samplingrate": 48000,
+                                "bitrate": 69963
+                            },
+                            "live": false
+                        },
+                        {
+                            "id": "d17e1090-12f6-409d-bf92-472f29baa591",
+                            "type": "presenter/delivery",
+                            "ref": "track:track-11",
+                            "mimetype": "video/mp4",
+                            "tags": {
+                                "tag": [
+                                    "engage-download",
+                                    "engage-streaming"
+                                ]
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/90444214-3b45-4f9a-8e41-59a17c2e5416/PRESENTER.mp4",
+                            "checksum": {
+                                "type": "md5",
+                                "$": "68f51a128876f85550d886f10b7a85ca"
+                            },
+                            "duration": 8999264,
+                            "audio": {
+                                "id": "audio-1",
+                                "device": "",
+                                "encoder": {
+                                    "type": "AAC (Advanced Audio Coding)"
+                                },
+                                "framecount": 421839,
+                                "channels": 1,
+                                "samplingrate": 48000,
+                                "bitrate": 96463
+                            },
+                            "video": {
+                                "id": "video-1",
+                                "device": "",
+                                "encoder": {
+                                    "type": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10"
+                                },
+                                "framecount": 224981,
+                                "bitrate": 2045121,
+                                "framerate": 25,
+                                "resolution": "1920x1080"
+                            },
+                            "live": false
+                        },
+                        {
+                            "id": "831359b1-4db5-43f6-9f7f-b0a007600a83",
+                            "type": "presentation/delivery",
+                            "ref": "track:track-12",
+                            "mimetype": "video/mp4",
+                            "tags": {
+                                "tag": [
+                                    "engage-download",
+                                    "engage-streaming"
+                                ]
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/e6c5a87e-53f1-4369-b5e3-464d28d1c4cc/SCREEN.mp4",
+                            "checksum": {
+                                "type": "md5",
+                                "$": "a13f08b6b2ffb3b8ada7a97068a04549"
+                            },
+                            "duration": 9000040,
+                            "audio": {
+                                "id": "audio-1",
+                                "device": "",
+                                "encoder": {
+                                    "type": "AAC (Advanced Audio Coding)"
+                                },
+                                "framecount": 421875,
+                                "channels": 1,
+                                "samplingrate": 48000,
+                                "bitrate": 64616
+                            },
+                            "video": {
+                                "id": "video-1",
+                                "device": "",
+                                "encoder": {
+                                    "type": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10"
+                                },
+                                "framecount": 225001,
+                                "bitrate": 535961,
+                                "framerate": 25,
+                                "resolution": "1280x720"
+                            },
+                            "live": false
+                        },
+                        {
+                            "id": "dc0ace57-784e-4cc7-a50a-5e9d755b38c4",
+                            "type": "presenter/delivery",
+                            "ref": "track:track-11",
+                            "mimetype": "video/mp4",
+                            "tags": {
+                                "tag": [
+                                    "engage-download",
+                                    "engage-streaming"
+                                ]
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/00c3da33-585f-410d-a7b7-1aeb69253efc/PRESENTER.mp4",
+                            "checksum": {
+                                "type": "md5",
+                                "$": "3caf1ea44843972fa05e1831beb37e5f"
+                            },
+                            "duration": 8999264,
+                            "audio": {
+                                "id": "audio-1",
+                                "device": "",
+                                "encoder": {
+                                    "type": "AAC (Advanced Audio Coding)"
+                                },
+                                "framecount": 421839,
+                                "channels": 1,
+                                "samplingrate": 48000,
+                                "bitrate": 64616
+                            },
+                            "video": {
+                                "id": "video-1",
+                                "device": "",
+                                "encoder": {
+                                    "type": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10"
+                                },
+                                "framecount": 224981,
+                                "bitrate": 1128047,
+                                "framerate": 25,
+                                "resolution": "1280x720"
+                            },
+                            "live": false
+                        },
+                        {
+                            "id": "160996a0-ad85-4435-bf05-9359828dc52b",
+                            "type": "audio_selected/upv",
+                            "ref": "track:2c51096c-8816-4219-855a-99ee2532c853",
+                            "mimetype": "audio/m4a",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/track-8/PRESENTER.m4a",
+                            "checksum": {
+                                "type": "md5",
+                                "$": "015b1a18d1fce0c9d7ea1c001950da1f"
+                            },
+                            "duration": 9000010,
+                            "audio": {
+                                "id": "audio-1",
+                                "device": "",
+                                "encoder": {
+                                    "type": "AAC (Advanced Audio Coding)"
+                                },
+                                "framecount": 421874,
+                                "channels": 1,
+                                "samplingrate": 48000,
+                                "bitrate": 69963
+                            },
+                            "live": false
+                        },
+                        {
+                            "id": "4dba7a3e-c808-4108-9593-767d2427853f",
+                            "type": "presentation/delivery",
+                            "ref": "track:track-12",
+                            "mimetype": "video/mp4",
+                            "tags": {
+                                "tag": [
+                                    "engage-download",
+                                    "engage-streaming"
+                                ]
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/d82d9601-0268-42e8-aada-03602e34d81b/SCREEN.mp4",
+                            "checksum": {
+                                "type": "md5",
+                                "$": "dbe2a9ff6b0a875cdae90959191ad388"
+                            },
+                            "duration": 9000040,
+                            "audio": {
+                                "id": "audio-1",
+                                "device": "",
+                                "encoder": {
+                                    "type": "AAC (Advanced Audio Coding)"
+                                },
+                                "framecount": 421875,
+                                "channels": 1,
+                                "samplingrate": 48000,
+                                "bitrate": 96463
+                            },
+                            "video": {
+                                "id": "video-1",
+                                "device": "",
+                                "encoder": {
+                                    "type": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10"
+                                },
+                                "framecount": 225001,
+                                "bitrate": 555181,
+                                "framerate": 25,
+                                "resolution": "1280x720"
+                            },
+                            "live": false
+                        },
+                        {
+                            "id": "4f43343a-25f3-4e04-ba6f-098fc02cdb43",
+                            "type": "presenter/delivery",
+                            "ref": "track:dc0ace57-784e-4cc7-a50a-5e9d755b38c4",
+                            "transport": "HLS",
+                            "mimetype": "application/x-mpegURL",
+                            "tags": {
+                                "tag": [
+                                    "engage-download",
+                                    "engage-streaming"
+                                ]
+                            },
+                            "url": "https://streaming.videoapuntes.upv.es/videoapuntes-engage/smil:engage-player_df1eb5e0-ac13-11eb-acc9-41e86d35166f_presenter.smil/playlist.m3u8",
+                            "duration": 8999264,
+                            "live": false
+                        },
+                        {
+                            "id": "8b4fb197-b01a-47bc-8dc7-8a47adc8a25b",
+                            "type": "presenter/delivery",
+                            "ref": "track:dc0ace57-784e-4cc7-a50a-5e9d755b38c4",
+                            "transport": "DASH",
+                            "mimetype": "application/dash+xml",
+                            "tags": {
+                                "tag": [
+                                    "engage-download",
+                                    "engage-streaming"
+                                ]
+                            },
+                            "url": "https://streaming.videoapuntes.upv.es/videoapuntes-engage/smil:engage-player_df1eb5e0-ac13-11eb-acc9-41e86d35166f_presenter.smil/manifest_mpm4sav_mvlist.mpd",
+                            "duration": 8999264,
+                            "live": false
+                        },
+                        {
+                            "id": "19ef5f91-f668-4fa4-be63-db383a8a06d4",
+                            "type": "presentation/delivery",
+                            "ref": "track:831359b1-4db5-43f6-9f7f-b0a007600a83",
+                            "transport": "HLS",
+                            "mimetype": "application/x-mpegURL",
+                            "tags": {
+                                "tag": [
+                                    "engage-download",
+                                    "engage-streaming"
+                                ]
+                            },
+                            "url": "https://streaming.videoapuntes.upv.es/videoapuntes-engage/smil:engage-player_df1eb5e0-ac13-11eb-acc9-41e86d35166f_presentation.smil/playlist.m3u8",
+                            "duration": 9000040,
+                            "live": false
+                        },
+                        {
+                            "id": "a58298ac-27e2-4906-9a68-8944dea2cf42",
+                            "type": "presentation/delivery",
+                            "ref": "track:831359b1-4db5-43f6-9f7f-b0a007600a83",
+                            "transport": "DASH",
+                            "mimetype": "application/dash+xml",
+                            "tags": {
+                                "tag": [
+                                    "engage-download",
+                                    "engage-streaming"
+                                ]
+                            },
+                            "url": "https://streaming.videoapuntes.upv.es/videoapuntes-engage/smil:engage-player_df1eb5e0-ac13-11eb-acc9-41e86d35166f_presentation.smil/manifest_mpm4sav_mvlist.mpd",
+                            "duration": 9000040,
+                            "live": false
+                        }
+                    ]
+                },
+                "metadata": {
+                    "catalog": [
+                        {
+                            "id": "c9e46171-4fd6-40c3-8d37-ef62dce5d05b",
+                            "type": "dublincore/series",
+                            "mimetype": "text/xml",
+                            "tags": {
+                                "tag": [
+                                    "archive",
+                                    "engage-download"
+                                ]
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/e18d561a-094b-4bda-8876-6c4f8bf81f93/dublincore.xml",
+                            "checksum": {
+                                "type": "md5",
+                                "$": "79f61f5bbe082207cfe48f84e950446e"
+                            }
+                        },
+                        {
+                            "id": "d1373a75-bc0c-44a7-b1f8-10395e56ea58",
+                            "type": "dublincore/episode",
+                            "mimetype": "text/xml",
+                            "tags": {
+                                "tag": [
+                                    "archive",
+                                    "engage",
+                                    "engage-download"
+                                ]
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/catalog-0/episode.xml"
+                        },
+                        {
+                            "id": "87a39023-6f6d-41fb-a7aa-cae5ca6563c5",
+                            "type": "mpeg-7/segments",
+                            "ref": "track:track-12",
+                            "mimetype": "text/xml",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/65e59aa0-71a5-4098-92f1-786a625b1022/segments.xml"
+                        }
+                    ]
+                },
+                "attachments": {
+                    "attachment": [
+                        {
+                            "id": "5851a61b-de3b-405b-a2e5-0400b3964837",
+                            "type": "security/xacml+series",
+                            "mimetype": "text/xml",
+                            "tags": {
+                                "tag": "archive"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/security-policy-series/xacml.xml",
+                            "size": 0
+                        },
+                        {
+                            "id": "0877cafb-ac3a-4541-9fcc-ef1001600ba0",
+                            "type": "presentation/segment+preview",
+                            "ref": "track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:28:45:120F1000",
+                            "mimetype": "image/jpeg",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/1d9f57f4-fba6-46dd-8fe9-61e72b2df43f/SCREEN.jpg",
+                            "size": 0
+                        },
+                        {
+                            "id": "415af588-c3a6-4901-a683-f59a79f27990",
+                            "type": "presentation/segment+preview",
+                            "ref": "track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:37:24:380F1000",
+                            "mimetype": "image/jpeg",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/95f406a1-9313-4172-a7d2-bab1ab17626d/SCREEN.jpg",
+                            "size": 0
+                        },
+                        {
+                            "id": "9a2544e4-bb72-4b4a-998e-c6e5c25b03c2",
+                            "type": "presentation/segment+preview",
+                            "ref": "track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:53:01:750F1000",
+                            "mimetype": "image/jpeg",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/f0e805d3-02de-4c45-b0e5-84299dfe3111/SCREEN.jpg",
+                            "size": 0
+                        },
+                        {
+                            "id": "54106a45-44ce-4516-9f3d-c2c27a199bf0",
+                            "type": "presentation/segment+preview",
+                            "ref": "track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T01:52:35:40F1000",
+                            "mimetype": "image/jpeg",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/92cf406e-a1fb-4a26-9291-97aced9ae474/SCREEN.jpg",
+                            "size": 0
+                        },
+                        {
+                            "id": "fcc5af79-d60c-4072-915d-7e8f93502029",
+                            "type": "presentation/segment+preview",
+                            "ref": "track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:13:16:396F1000",
+                            "mimetype": "image/jpeg",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/3a700e93-54ba-45e6-a1e3-82a1748e8276/SCREEN.jpg",
+                            "size": 0
+                        },
+                        {
+                            "id": "ddbe204b-4b20-4712-9da7-ff2cc5c99ada",
+                            "type": "presentation/segment+preview",
+                            "ref": "track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:18:23:250F1000",
+                            "mimetype": "image/jpeg",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/16ef0cdf-df67-415c-a735-7400b381dd73/SCREEN.jpg",
+                            "size": 0
+                        },
+                        {
+                            "id": "be44a6b1-9fa6-49eb-ae51-9ffce82b3b66",
+                            "type": "presentation/player+preview",
+                            "ref": "track:track-12",
+                            "mimetype": "image/jpeg",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/28dd0407-412c-4d6c-bb40-8d2fd36537b5/SCREEN_0_000s_player.jpg",
+                            "size": 0
+                        },
+                        {
+                            "id": "c2a1aa0b-c756-45a7-9745-0179815de66b",
+                            "type": "presenter/feed+preview",
+                            "ref": "track:track-11",
+                            "mimetype": "image/jpeg",
+                            "tags": {
+                                "tag": [
+                                    "atom",
+                                    "rss"
+                                ]
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/1b728b95-7e30-48b1-8b27-29277bc725cf/PRESENTER_0_000s_feed.jpg",
+                            "size": 0
+                        },
+                        {
+                            "id": "c01f42d3-7b26-429d-b361-87d7b390f724",
+                            "type": "presentation/segment+preview",
+                            "ref": "track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T02:14:21:835F1000",
+                            "mimetype": "image/jpeg",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/8d3482f1-8930-4966-9830-95d8ec9a89e2/SCREEN.jpg",
+                            "size": 0
+                        },
+                        {
+                            "id": "d0e91ab9-6eeb-4175-9fdd-d6179e568d82",
+                            "type": "presentation/timeline+preview",
+                            "ref": "track:track-12",
+                            "mimetype": "image/png",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/86fff585-f101-4875-98b1-99193a6a7978/SCREEN_c20781e1_7c26_41d0_96a8_1d03331faa73_timelinepreviews.png",
+                            "size": 0,
+                            "additionalProperties": {
+                                "property": [
+                                    {
+                                        "key": "resolutionY",
+                                        "$": "-1"
+                                    },
+                                    {
+                                        "key": "imageCount",
+                                        "$": "100"
+                                    },
+                                    {
+                                        "key": "resolutionX",
+                                        "$": "160"
+                                    },
+                                    {
+                                        "key": "imageSizeY",
+                                        "$": "10"
+                                    },
+                                    {
+                                        "key": "imageSizeX",
+                                        "$": "10"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "b0c27ead-f401-4528-a8bd-d5ce1deae812",
+                            "type": "presenter/timeline+preview",
+                            "ref": "track:track-11",
+                            "mimetype": "image/png",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/f469a80c-3587-4b46-a373-33a9b7168626/PRESENTER_bc5d3905_c9b4_4680_8430_5c619de22110_timelinepreviews.png",
+                            "size": 0,
+                            "additionalProperties": {
+                                "property": [
+                                    {
+                                        "key": "resolutionY",
+                                        "$": "-1"
+                                    },
+                                    {
+                                        "key": "imageCount",
+                                        "$": "100"
+                                    },
+                                    {
+                                        "key": "resolutionX",
+                                        "$": "160"
+                                    },
+                                    {
+                                        "key": "imageSizeY",
+                                        "$": "10"
+                                    },
+                                    {
+                                        "key": "imageSizeX",
+                                        "$": "10"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "0716e224-dab2-436a-9133-33d039c81c4c",
+                            "type": "presentation/segment+preview",
+                            "ref": "track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:20:00:585F1000",
+                            "mimetype": "image/jpeg",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/1ced1ea8-40d3-420e-ab89-dab5ddc7396e/SCREEN.jpg",
+                            "size": 0
+                        },
+                        {
+                            "id": "8f96ecc6-b37f-445f-9db6-142a19f54ebb",
+                            "type": "presentation/segment+preview",
+                            "ref": "track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:40:05:170F1000",
+                            "mimetype": "image/jpeg",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/c56a0e87-959b-4d60-a4f3-d676f5092cad/SCREEN.jpg",
+                            "size": 0
+                        },
+                        {
+                            "id": "d0de04c7-e97c-49ad-aae2-b095ab6f8f56",
+                            "type": "presentation/segment+preview",
+                            "ref": "track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T01:17:41:770F1000",
+                            "mimetype": "image/jpeg",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/1cab6cac-388f-4007-8e98-ba091812e006/SCREEN.jpg",
+                            "size": 0
+                        },
+                        {
+                            "id": "c5e5b1fd-c812-437b-962a-6ac3752af96f",
+                            "type": "presenter/search+preview",
+                            "ref": "track:track-11",
+                            "mimetype": "image/jpeg",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/26e5e8ce-b61c-477b-b281-2e2c14c6ea15/PRESENTER_0_000s_search.jpg",
+                            "size": 0
+                        },
+                        {
+                            "id": "759151c5-b28e-45c0-896f-c2adbc32d7dd",
+                            "type": "presentation/segment+preview",
+                            "ref": "track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:00:00:0F1000",
+                            "mimetype": "image/jpeg",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/b6431b9a-30cf-4f39-a440-e60a300263c5/SCREEN.jpg",
+                            "size": 0
+                        },
+                        {
+                            "id": "3c86d351-6b17-4536-80e3-6a5de6b20c25",
+                            "type": "presentation/segment+preview",
+                            "ref": "track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:35:01:0F1000",
+                            "mimetype": "image/jpeg",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/5cea71bd-a6b4-485a-a2d5-ac9d58dc56a7/SCREEN.jpg",
+                            "size": 0
+                        },
+                        {
+                            "id": "1207fc9a-efea-48a8-b960-f59147054d79",
+                            "type": "presentation/segment+preview",
+                            "ref": "track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:47:30:960F1000",
+                            "mimetype": "image/jpeg",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/8eca8962-499a-4226-a1f8-b146cf564ed2/SCREEN.jpg",
+                            "size": 0
+                        },
+                        {
+                            "id": "c1d2dc99-4022-422a-a397-364b4cc3614a",
+                            "type": "presentation/segment+preview",
+                            "ref": "track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:01:55:625F1000",
+                            "mimetype": "image/jpeg",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/e9bec2cb-2eda-48ec-88e2-e8a3c760b783/SCREEN.jpg",
+                            "size": 0
+                        },
+                        {
+                            "id": "61e28d33-abff-4930-b85a-c12c27b8ca66",
+                            "type": "presentation/feed+preview",
+                            "ref": "track:track-12",
+                            "mimetype": "image/jpeg",
+                            "tags": {
+                                "tag": [
+                                    "atom",
+                                    "rss"
+                                ]
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/3d3a3aab-1570-4dee-bd07-c44fe0be85a9/SCREEN_0_000s_feed.jpg",
+                            "size": 0
+                        },
+                        {
+                            "id": "bdd3b01e-c71d-438f-99f2-e7a1573e2ca9",
+                            "type": "presentation/segment+preview",
+                            "ref": "track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:17:09:540F1000",
+                            "mimetype": "image/jpeg",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/a80e2713-12e0-4074-b5a0-51e1ce913fb6/SCREEN.jpg",
+                            "size": 0
+                        },
+                        {
+                            "id": "59952dcd-0eba-4c0a-ace9-7a2425904b70",
+                            "type": "presentation/segment+preview",
+                            "ref": "track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:14:53:292F1000",
+                            "mimetype": "image/jpeg",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/bb0f120e-f29b-499f-ade4-c6beed20deff/SCREEN.jpg",
+                            "size": 0
+                        },
+                        {
+                            "id": "3ea39406-feb6-4d25-a425-93e584cd7c71",
+                            "type": "presentation/segment+preview",
+                            "ref": "track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T01:22:41:40F1000",
+                            "mimetype": "image/jpeg",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/474a8f33-1552-4744-99e9-abcb3a5402fd/SCREEN.jpg",
+                            "size": 0
+                        },
+                        {
+                            "id": "dcf2a974-caed-4db6-aecf-bf9278247a4d",
+                            "type": "presentation/segment+preview",
+                            "ref": "track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:59:52:250F1000",
+                            "mimetype": "image/jpeg",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/3049fb1b-9b53-4106-b3c9-383eddcdd17e/SCREEN.jpg",
+                            "size": 0
+                        },
+                        {
+                            "id": "73778757-94f3-4f87-b674-7699ddb8d9ac",
+                            "type": "presentation/segment+preview",
+                            "ref": "track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T01:14:10:960F1000",
+                            "mimetype": "image/jpeg",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/550dc834-8b24-4119-8750-f9792245cfc8/SCREEN.jpg",
+                            "size": 0
+                        },
+                        {
+                            "id": "106d0a52-2222-47fd-aa77-deb34c765d72",
+                            "type": "presenter/player+preview",
+                            "mimetype": "image/png",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/1c221e18-05e1-496a-8426-43e37283f01c/coverimage.png",
+                            "size": 0
+                        },
+                        {
+                            "id": "80620b6a-2d9f-4374-b141-67deb72910db",
+                            "type": "presentation/segment+preview",
+                            "ref": "track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T01:19:34:875F1000",
+                            "mimetype": "image/jpeg",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/b67ce3b8-f585-436e-85fa-3b016630aaaf/SCREEN.jpg",
+                            "size": 0
+                        },
+                        {
+                            "id": "197f1ace-e537-4c69-b359-f367a2a1626f",
+                            "type": "presentation/segment+preview",
+                            "ref": "track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:07:43:667F1000",
+                            "mimetype": "image/jpeg",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/0c8a17aa-985d-4b6e-a9f5-b28c4a22ae16/SCREEN.jpg",
+                            "size": 0
+                        },
+                        {
+                            "id": "7a2a2b98-4dcf-4cf0-8f91-c69faf264368",
+                            "type": "presentation/segment+preview",
+                            "ref": "track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:23:07:960F1000",
+                            "mimetype": "image/jpeg",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/c04f5e38-dec9-4134-b8ed-db5055340e95/SCREEN.jpg",
+                            "size": 0
+                        },
+                        {
+                            "id": "15239400-aec7-46d9-819b-83b7c072ac4f",
+                            "type": "presentation/segment+preview",
+                            "ref": "track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:50:23:330F1000",
+                            "mimetype": "image/jpeg",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/4ce8c744-506c-4384-8fdf-588c8360ea9b/SCREEN.jpg",
+                            "size": 0
+                        },
+                        {
+                            "id": "6890cbab-3d3a-48eb-a8d9-82c871af9c03",
+                            "type": "presentation/segment+preview",
+                            "ref": "track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:11:44:42F1000",
+                            "mimetype": "image/jpeg",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/89e6d2b5-a72c-4ddd-8165-96f196c995a3/SCREEN.jpg",
+                            "size": 0
+                        },
+                        {
+                            "id": "274f46eb-bff6-4348-b9f4-663483aae04b",
+                            "type": "presentation/segment+preview",
+                            "ref": "track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:21:27:540F1000",
+                            "mimetype": "image/jpeg",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/74a8aa07-85c6-4ba8-bc36-4164fa984a25/SCREEN.jpg",
+                            "size": 0
+                        },
+                        {
+                            "id": "f137322b-f918-484f-b2eb-344e3754dedb",
+                            "type": "presentation/segment+preview",
+                            "ref": "track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T01:21:10:40F1000",
+                            "mimetype": "image/jpeg",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/034043bf-dbaa-40ff-ad5c-5c08475cb5bd/SCREEN.jpg",
+                            "size": 0
+                        },
+                        {
+                            "id": "624eab86-2c2d-4389-88af-54ce14e475c2",
+                            "type": "presentation/segment+preview",
+                            "ref": "track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T02:25:44:895F1000",
+                            "mimetype": "image/jpeg",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/4c045255-7648-4a4e-91d7-8413e28f0412/SCREEN.jpg",
+                            "size": 0
+                        },
+                        {
+                            "id": "1b7de2c9-5996-4da8-b53e-8f6c487bba9b",
+                            "type": "presentation/segment+preview",
+                            "ref": "track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:26:50:380F1000",
+                            "mimetype": "image/jpeg",
+                            "tags": {
+                                "tag": "engage-download"
+                            },
+                            "url": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/a99e2ec5-6ad1-43a6-9a35-2d72836fd506/SCREEN.jpg",
+                            "size": 0
+                        }
+                    ]
+                },
+                "publications": ""
+            },
+            "dcExtent": 9000041,
+            "dcTitle": "SPIN UPV: Cuestiones jurídicas en spin-off 2021-06-08 12:00",
+            "dcCreator": "Fernando Javier Conesa Cegarra",
+            "dcPublisher": "Fernando Javier Conesa Cegarra",
+            "dcCreated": "2021-06-08T12:00:00+02:00",
+            "dcLanguage": "spa",
+            "dcSpatial": "smith-674",
+            "dcIsPartOf": "SHOW_PUBLIC_dc4a3ed0-9e8e-11eb-a622-2df49e277287",
+            "ocMediapackage": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mediapackage duration=\"9000040\" id=\"df1eb5e0-ac13-11eb-acc9-41e86d35166f\" start=\"2021-06-08T10:00:00Z\" xmlns=\"http://mediapackage.opencastproject.org\"><title>SPIN UPV: Cuestiones jurídicas en spin-off 2021-06-08 12:00<\/title><series>SHOW_PUBLIC_dc4a3ed0-9e8e-11eb-a622-2df49e277287<\/series><seriestitle>PUBLIC_dc4a3ed0-9e8e-11eb-a622-2df49e277287<\/seriestitle><creators><creator>Fernando Javier Conesa Cegarra<\/creator><\/creators><language>spa<\/language><media><track id=\"df9799da-82d1-48ee-a6f7-3cd629404770\" type=\"presentation/delivery\" ref=\"track:track-12\"><mimetype>video/mp4<\/mimetype><tags><tag>engage-download<\/tag><tag>engage-streaming<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/12818154-533d-473a-95ec-240ffa083c17/SCREEN.mp4<\/url><checksum type=\"md5\">a675935c9a017f2a6b38283be420ae91<\/checksum><duration>9000040<\/duration><audio id=\"audio-1\"><device/><encoder type=\"AAC (Advanced Audio Coding)\"/><framecount>421875<\/framecount><channels>1<\/channels><samplingrate>48000<\/samplingrate><bitrate>32685.0<\/bitrate><\/audio><video id=\"video-1\"><device/><encoder type=\"H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10\"/><framecount>225001<\/framecount><bitrate>282147.0<\/bitrate><framerate>25.0<\/framerate><resolution>854x480<\/resolution><\/video><live>false<\/live><\/track><track id=\"288f44e6-277f-46e1-bdef-eaf58cb3fef7\" type=\"presenter/delivery\" ref=\"track:track-11\"><mimetype>video/mp4<\/mimetype><tags><tag>engage-download<\/tag><tag>engage-streaming<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/1b57dc3d-2c24-4348-9b4f-d68c681cf5df/PRESENTER.mp4<\/url><checksum type=\"md5\">df9ea88eea4e3013c5f63c7b5c624c77<\/checksum><duration>8999264<\/duration><audio id=\"audio-1\"><device/><encoder type=\"AAC (Advanced Audio Coding)\"/><framecount>421839<\/framecount><channels>1<\/channels><samplingrate>48000<\/samplingrate><bitrate>32685.0<\/bitrate><\/audio><video id=\"video-1\"><device/><encoder type=\"H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10\"/><framecount>224981<\/framecount><bitrate>642313.0<\/bitrate><framerate>25.0<\/framerate><resolution>854x480<\/resolution><\/video><live>false<\/live><\/track><track id=\"2c51096c-8816-4219-855a-99ee2532c853\" type=\"audio_ambient/upv\" ref=\"track:track-0\"><mimetype>audio/m4a<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/29291aa8-49d7-43b9-9c50-b9574cd53604/PRESENTER.m4a<\/url><checksum type=\"md5\">015b1a18d1fce0c9d7ea1c001950da1f<\/checksum><duration>9000010<\/duration><audio id=\"audio-1\"><device/><encoder type=\"AAC (Advanced Audio Coding)\"/><framecount>421874<\/framecount><channels>1<\/channels><samplingrate>48000<\/samplingrate><bitrate>69963.0<\/bitrate><\/audio><live>false<\/live><\/track><track id=\"d17e1090-12f6-409d-bf92-472f29baa591\" type=\"presenter/delivery\" ref=\"track:track-11\"><mimetype>video/mp4<\/mimetype><tags><tag>engage-download<\/tag><tag>engage-streaming<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/90444214-3b45-4f9a-8e41-59a17c2e5416/PRESENTER.mp4<\/url><checksum type=\"md5\">68f51a128876f85550d886f10b7a85ca<\/checksum><duration>8999264<\/duration><audio id=\"audio-1\"><device/><encoder type=\"AAC (Advanced Audio Coding)\"/><framecount>421839<\/framecount><channels>1<\/channels><samplingrate>48000<\/samplingrate><bitrate>96463.0<\/bitrate><\/audio><video id=\"video-1\"><device/><encoder type=\"H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10\"/><framecount>224981<\/framecount><bitrate>2045121.0<\/bitrate><framerate>25.0<\/framerate><resolution>1920x1080<\/resolution><\/video><live>false<\/live><\/track><track id=\"831359b1-4db5-43f6-9f7f-b0a007600a83\" type=\"presentation/delivery\" ref=\"track:track-12\"><mimetype>video/mp4<\/mimetype><tags><tag>engage-download<\/tag><tag>engage-streaming<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/e6c5a87e-53f1-4369-b5e3-464d28d1c4cc/SCREEN.mp4<\/url><checksum type=\"md5\">a13f08b6b2ffb3b8ada7a97068a04549<\/checksum><duration>9000040<\/duration><audio id=\"audio-1\"><device/><encoder type=\"AAC (Advanced Audio Coding)\"/><framecount>421875<\/framecount><channels>1<\/channels><samplingrate>48000<\/samplingrate><bitrate>64616.0<\/bitrate><\/audio><video id=\"video-1\"><device/><encoder type=\"H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10\"/><framecount>225001<\/framecount><bitrate>535961.0<\/bitrate><framerate>25.0<\/framerate><resolution>1280x720<\/resolution><\/video><live>false<\/live><\/track><track id=\"dc0ace57-784e-4cc7-a50a-5e9d755b38c4\" type=\"presenter/delivery\" ref=\"track:track-11\"><mimetype>video/mp4<\/mimetype><tags><tag>engage-download<\/tag><tag>engage-streaming<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/00c3da33-585f-410d-a7b7-1aeb69253efc/PRESENTER.mp4<\/url><checksum type=\"md5\">3caf1ea44843972fa05e1831beb37e5f<\/checksum><duration>8999264<\/duration><audio id=\"audio-1\"><device/><encoder type=\"AAC (Advanced Audio Coding)\"/><framecount>421839<\/framecount><channels>1<\/channels><samplingrate>48000<\/samplingrate><bitrate>64616.0<\/bitrate><\/audio><video id=\"video-1\"><device/><encoder type=\"H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10\"/><framecount>224981<\/framecount><bitrate>1128047.0<\/bitrate><framerate>25.0<\/framerate><resolution>1280x720<\/resolution><\/video><live>false<\/live><\/track><track id=\"160996a0-ad85-4435-bf05-9359828dc52b\" type=\"audio_selected/upv\" ref=\"track:2c51096c-8816-4219-855a-99ee2532c853\"><mimetype>audio/m4a<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/track-8/PRESENTER.m4a<\/url><checksum type=\"md5\">015b1a18d1fce0c9d7ea1c001950da1f<\/checksum><duration>9000010<\/duration><audio id=\"audio-1\"><device/><encoder type=\"AAC (Advanced Audio Coding)\"/><framecount>421874<\/framecount><channels>1<\/channels><samplingrate>48000<\/samplingrate><bitrate>69963.0<\/bitrate><\/audio><live>false<\/live><\/track><track id=\"4dba7a3e-c808-4108-9593-767d2427853f\" type=\"presentation/delivery\" ref=\"track:track-12\"><mimetype>video/mp4<\/mimetype><tags><tag>engage-download<\/tag><tag>engage-streaming<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/d82d9601-0268-42e8-aada-03602e34d81b/SCREEN.mp4<\/url><checksum type=\"md5\">dbe2a9ff6b0a875cdae90959191ad388<\/checksum><duration>9000040<\/duration><audio id=\"audio-1\"><device/><encoder type=\"AAC (Advanced Audio Coding)\"/><framecount>421875<\/framecount><channels>1<\/channels><samplingrate>48000<\/samplingrate><bitrate>96463.0<\/bitrate><\/audio><video id=\"video-1\"><device/><encoder type=\"H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10\"/><framecount>225001<\/framecount><bitrate>555181.0<\/bitrate><framerate>25.0<\/framerate><resolution>1280x720<\/resolution><\/video><live>false<\/live><\/track><track id=\"4f43343a-25f3-4e04-ba6f-098fc02cdb43\" type=\"presenter/delivery\" ref=\"track:dc0ace57-784e-4cc7-a50a-5e9d755b38c4\" transport=\"HLS\"><mimetype>application/x-mpegURL<\/mimetype><tags><tag>engage-download<\/tag><tag>engage-streaming<\/tag><\/tags><url>https://streaming.videoapuntes.upv.es/videoapuntes-engage/smil:engage-player_df1eb5e0-ac13-11eb-acc9-41e86d35166f_presenter.smil/playlist.m3u8<\/url><duration>8999264<\/duration><live>false<\/live><\/track><track id=\"8b4fb197-b01a-47bc-8dc7-8a47adc8a25b\" type=\"presenter/delivery\" ref=\"track:dc0ace57-784e-4cc7-a50a-5e9d755b38c4\" transport=\"DASH\"><mimetype>application/dash+xml<\/mimetype><tags><tag>engage-download<\/tag><tag>engage-streaming<\/tag><\/tags><url>https://streaming.videoapuntes.upv.es/videoapuntes-engage/smil:engage-player_df1eb5e0-ac13-11eb-acc9-41e86d35166f_presenter.smil/manifest_mpm4sav_mvlist.mpd<\/url><duration>8999264<\/duration><live>false<\/live><\/track><track id=\"19ef5f91-f668-4fa4-be63-db383a8a06d4\" type=\"presentation/delivery\" ref=\"track:831359b1-4db5-43f6-9f7f-b0a007600a83\" transport=\"HLS\"><mimetype>application/x-mpegURL<\/mimetype><tags><tag>engage-download<\/tag><tag>engage-streaming<\/tag><\/tags><url>https://streaming.videoapuntes.upv.es/videoapuntes-engage/smil:engage-player_df1eb5e0-ac13-11eb-acc9-41e86d35166f_presentation.smil/playlist.m3u8<\/url><duration>9000040<\/duration><live>false<\/live><\/track><track id=\"a58298ac-27e2-4906-9a68-8944dea2cf42\" type=\"presentation/delivery\" ref=\"track:831359b1-4db5-43f6-9f7f-b0a007600a83\" transport=\"DASH\"><mimetype>application/dash+xml<\/mimetype><tags><tag>engage-download<\/tag><tag>engage-streaming<\/tag><\/tags><url>https://streaming.videoapuntes.upv.es/videoapuntes-engage/smil:engage-player_df1eb5e0-ac13-11eb-acc9-41e86d35166f_presentation.smil/manifest_mpm4sav_mvlist.mpd<\/url><duration>9000040<\/duration><live>false<\/live><\/track><\/media><metadata><catalog id=\"c9e46171-4fd6-40c3-8d37-ef62dce5d05b\" type=\"dublincore/series\"><mimetype>text/xml<\/mimetype><tags><tag>archive<\/tag><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/e18d561a-094b-4bda-8876-6c4f8bf81f93/dublincore.xml<\/url><checksum type=\"md5\">79f61f5bbe082207cfe48f84e950446e<\/checksum><\/catalog><catalog id=\"d1373a75-bc0c-44a7-b1f8-10395e56ea58\" type=\"dublincore/episode\"><mimetype>text/xml<\/mimetype><tags><tag>archive<\/tag><tag>engage<\/tag><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/catalog-0/episode.xml<\/url><\/catalog><catalog id=\"87a39023-6f6d-41fb-a7aa-cae5ca6563c5\" type=\"mpeg-7/segments\" ref=\"track:track-12\"><mimetype>text/xml<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/65e59aa0-71a5-4098-92f1-786a625b1022/segments.xml<\/url><\/catalog><\/metadata><attachments><attachment id=\"5851a61b-de3b-405b-a2e5-0400b3964837\" type=\"security/xacml+series\"><mimetype>text/xml<\/mimetype><tags><tag>archive<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/security-policy-series/xacml.xml<\/url><size>0<\/size><\/attachment><attachment id=\"0877cafb-ac3a-4541-9fcc-ef1001600ba0\" type=\"presentation/segment+preview\" ref=\"track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:28:45:120F1000\"><mimetype>image/jpeg<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/1d9f57f4-fba6-46dd-8fe9-61e72b2df43f/SCREEN.jpg<\/url><size>0<\/size><\/attachment><attachment id=\"415af588-c3a6-4901-a683-f59a79f27990\" type=\"presentation/segment+preview\" ref=\"track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:37:24:380F1000\"><mimetype>image/jpeg<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/95f406a1-9313-4172-a7d2-bab1ab17626d/SCREEN.jpg<\/url><size>0<\/size><\/attachment><attachment id=\"9a2544e4-bb72-4b4a-998e-c6e5c25b03c2\" type=\"presentation/segment+preview\" ref=\"track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:53:01:750F1000\"><mimetype>image/jpeg<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/f0e805d3-02de-4c45-b0e5-84299dfe3111/SCREEN.jpg<\/url><size>0<\/size><\/attachment><attachment id=\"54106a45-44ce-4516-9f3d-c2c27a199bf0\" type=\"presentation/segment+preview\" ref=\"track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T01:52:35:40F1000\"><mimetype>image/jpeg<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/92cf406e-a1fb-4a26-9291-97aced9ae474/SCREEN.jpg<\/url><size>0<\/size><\/attachment><attachment id=\"fcc5af79-d60c-4072-915d-7e8f93502029\" type=\"presentation/segment+preview\" ref=\"track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:13:16:396F1000\"><mimetype>image/jpeg<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/3a700e93-54ba-45e6-a1e3-82a1748e8276/SCREEN.jpg<\/url><size>0<\/size><\/attachment><attachment id=\"ddbe204b-4b20-4712-9da7-ff2cc5c99ada\" type=\"presentation/segment+preview\" ref=\"track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:18:23:250F1000\"><mimetype>image/jpeg<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/16ef0cdf-df67-415c-a735-7400b381dd73/SCREEN.jpg<\/url><size>0<\/size><\/attachment><attachment id=\"be44a6b1-9fa6-49eb-ae51-9ffce82b3b66\" type=\"presentation/player+preview\" ref=\"track:track-12\"><mimetype>image/jpeg<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/28dd0407-412c-4d6c-bb40-8d2fd36537b5/SCREEN_0_000s_player.jpg<\/url><size>0<\/size><\/attachment><attachment id=\"c2a1aa0b-c756-45a7-9745-0179815de66b\" type=\"presenter/feed+preview\" ref=\"track:track-11\"><mimetype>image/jpeg<\/mimetype><tags><tag>atom<\/tag><tag>rss<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/1b728b95-7e30-48b1-8b27-29277bc725cf/PRESENTER_0_000s_feed.jpg<\/url><size>0<\/size><\/attachment><attachment id=\"c01f42d3-7b26-429d-b361-87d7b390f724\" type=\"presentation/segment+preview\" ref=\"track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T02:14:21:835F1000\"><mimetype>image/jpeg<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/8d3482f1-8930-4966-9830-95d8ec9a89e2/SCREEN.jpg<\/url><size>0<\/size><\/attachment><attachment id=\"d0e91ab9-6eeb-4175-9fdd-d6179e568d82\" type=\"presentation/timeline+preview\" ref=\"track:track-12\"><mimetype>image/png<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/86fff585-f101-4875-98b1-99193a6a7978/SCREEN_c20781e1_7c26_41d0_96a8_1d03331faa73_timelinepreviews.png<\/url><size>0<\/size><additionalProperties><property key=\"resolutionY\">-1<\/property><property key=\"imageCount\">100<\/property><property key=\"resolutionX\">160<\/property><property key=\"imageSizeY\">10<\/property><property key=\"imageSizeX\">10<\/property><\/additionalProperties><\/attachment><attachment id=\"b0c27ead-f401-4528-a8bd-d5ce1deae812\" type=\"presenter/timeline+preview\" ref=\"track:track-11\"><mimetype>image/png<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/f469a80c-3587-4b46-a373-33a9b7168626/PRESENTER_bc5d3905_c9b4_4680_8430_5c619de22110_timelinepreviews.png<\/url><size>0<\/size><additionalProperties><property key=\"resolutionY\">-1<\/property><property key=\"imageCount\">100<\/property><property key=\"resolutionX\">160<\/property><property key=\"imageSizeY\">10<\/property><property key=\"imageSizeX\">10<\/property><\/additionalProperties><\/attachment><attachment id=\"0716e224-dab2-436a-9133-33d039c81c4c\" type=\"presentation/segment+preview\" ref=\"track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:20:00:585F1000\"><mimetype>image/jpeg<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/1ced1ea8-40d3-420e-ab89-dab5ddc7396e/SCREEN.jpg<\/url><size>0<\/size><\/attachment><attachment id=\"8f96ecc6-b37f-445f-9db6-142a19f54ebb\" type=\"presentation/segment+preview\" ref=\"track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:40:05:170F1000\"><mimetype>image/jpeg<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/c56a0e87-959b-4d60-a4f3-d676f5092cad/SCREEN.jpg<\/url><size>0<\/size><\/attachment><attachment id=\"d0de04c7-e97c-49ad-aae2-b095ab6f8f56\" type=\"presentation/segment+preview\" ref=\"track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T01:17:41:770F1000\"><mimetype>image/jpeg<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/1cab6cac-388f-4007-8e98-ba091812e006/SCREEN.jpg<\/url><size>0<\/size><\/attachment><attachment id=\"c5e5b1fd-c812-437b-962a-6ac3752af96f\" type=\"presenter/search+preview\" ref=\"track:track-11\"><mimetype>image/jpeg<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/26e5e8ce-b61c-477b-b281-2e2c14c6ea15/PRESENTER_0_000s_search.jpg<\/url><size>0<\/size><\/attachment><attachment id=\"759151c5-b28e-45c0-896f-c2adbc32d7dd\" type=\"presentation/segment+preview\" ref=\"track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:00:00:0F1000\"><mimetype>image/jpeg<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/b6431b9a-30cf-4f39-a440-e60a300263c5/SCREEN.jpg<\/url><size>0<\/size><\/attachment><attachment id=\"3c86d351-6b17-4536-80e3-6a5de6b20c25\" type=\"presentation/segment+preview\" ref=\"track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:35:01:0F1000\"><mimetype>image/jpeg<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/5cea71bd-a6b4-485a-a2d5-ac9d58dc56a7/SCREEN.jpg<\/url><size>0<\/size><\/attachment><attachment id=\"1207fc9a-efea-48a8-b960-f59147054d79\" type=\"presentation/segment+preview\" ref=\"track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:47:30:960F1000\"><mimetype>image/jpeg<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/8eca8962-499a-4226-a1f8-b146cf564ed2/SCREEN.jpg<\/url><size>0<\/size><\/attachment><attachment id=\"c1d2dc99-4022-422a-a397-364b4cc3614a\" type=\"presentation/segment+preview\" ref=\"track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:01:55:625F1000\"><mimetype>image/jpeg<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/e9bec2cb-2eda-48ec-88e2-e8a3c760b783/SCREEN.jpg<\/url><size>0<\/size><\/attachment><attachment id=\"61e28d33-abff-4930-b85a-c12c27b8ca66\" type=\"presentation/feed+preview\" ref=\"track:track-12\"><mimetype>image/jpeg<\/mimetype><tags><tag>atom<\/tag><tag>rss<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/3d3a3aab-1570-4dee-bd07-c44fe0be85a9/SCREEN_0_000s_feed.jpg<\/url><size>0<\/size><\/attachment><attachment id=\"bdd3b01e-c71d-438f-99f2-e7a1573e2ca9\" type=\"presentation/segment+preview\" ref=\"track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:17:09:540F1000\"><mimetype>image/jpeg<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/a80e2713-12e0-4074-b5a0-51e1ce913fb6/SCREEN.jpg<\/url><size>0<\/size><\/attachment><attachment id=\"59952dcd-0eba-4c0a-ace9-7a2425904b70\" type=\"presentation/segment+preview\" ref=\"track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:14:53:292F1000\"><mimetype>image/jpeg<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/bb0f120e-f29b-499f-ade4-c6beed20deff/SCREEN.jpg<\/url><size>0<\/size><\/attachment><attachment id=\"3ea39406-feb6-4d25-a425-93e584cd7c71\" type=\"presentation/segment+preview\" ref=\"track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T01:22:41:40F1000\"><mimetype>image/jpeg<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/474a8f33-1552-4744-99e9-abcb3a5402fd/SCREEN.jpg<\/url><size>0<\/size><\/attachment><attachment id=\"dcf2a974-caed-4db6-aecf-bf9278247a4d\" type=\"presentation/segment+preview\" ref=\"track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:59:52:250F1000\"><mimetype>image/jpeg<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/3049fb1b-9b53-4106-b3c9-383eddcdd17e/SCREEN.jpg<\/url><size>0<\/size><\/attachment><attachment id=\"73778757-94f3-4f87-b674-7699ddb8d9ac\" type=\"presentation/segment+preview\" ref=\"track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T01:14:10:960F1000\"><mimetype>image/jpeg<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/550dc834-8b24-4119-8750-f9792245cfc8/SCREEN.jpg<\/url><size>0<\/size><\/attachment><attachment id=\"106d0a52-2222-47fd-aa77-deb34c765d72\" type=\"presenter/player+preview\"><mimetype>image/png<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/1c221e18-05e1-496a-8426-43e37283f01c/coverimage.png<\/url><size>0<\/size><\/attachment><attachment id=\"80620b6a-2d9f-4374-b141-67deb72910db\" type=\"presentation/segment+preview\" ref=\"track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T01:19:34:875F1000\"><mimetype>image/jpeg<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/b67ce3b8-f585-436e-85fa-3b016630aaaf/SCREEN.jpg<\/url><size>0<\/size><\/attachment><attachment id=\"197f1ace-e537-4c69-b359-f367a2a1626f\" type=\"presentation/segment+preview\" ref=\"track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:07:43:667F1000\"><mimetype>image/jpeg<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/0c8a17aa-985d-4b6e-a9f5-b28c4a22ae16/SCREEN.jpg<\/url><size>0<\/size><\/attachment><attachment id=\"7a2a2b98-4dcf-4cf0-8f91-c69faf264368\" type=\"presentation/segment+preview\" ref=\"track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:23:07:960F1000\"><mimetype>image/jpeg<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/c04f5e38-dec9-4134-b8ed-db5055340e95/SCREEN.jpg<\/url><size>0<\/size><\/attachment><attachment id=\"15239400-aec7-46d9-819b-83b7c072ac4f\" type=\"presentation/segment+preview\" ref=\"track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:50:23:330F1000\"><mimetype>image/jpeg<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/4ce8c744-506c-4384-8fdf-588c8360ea9b/SCREEN.jpg<\/url><size>0<\/size><\/attachment><attachment id=\"6890cbab-3d3a-48eb-a8d9-82c871af9c03\" type=\"presentation/segment+preview\" ref=\"track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:11:44:42F1000\"><mimetype>image/jpeg<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/89e6d2b5-a72c-4ddd-8165-96f196c995a3/SCREEN.jpg<\/url><size>0<\/size><\/attachment><attachment id=\"274f46eb-bff6-4348-b9f4-663483aae04b\" type=\"presentation/segment+preview\" ref=\"track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:21:27:540F1000\"><mimetype>image/jpeg<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/74a8aa07-85c6-4ba8-bc36-4164fa984a25/SCREEN.jpg<\/url><size>0<\/size><\/attachment><attachment id=\"f137322b-f918-484f-b2eb-344e3754dedb\" type=\"presentation/segment+preview\" ref=\"track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T01:21:10:40F1000\"><mimetype>image/jpeg<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/034043bf-dbaa-40ff-ad5c-5c08475cb5bd/SCREEN.jpg<\/url><size>0<\/size><\/attachment><attachment id=\"624eab86-2c2d-4389-88af-54ce14e475c2\" type=\"presentation/segment+preview\" ref=\"track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T02:25:44:895F1000\"><mimetype>image/jpeg<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/4c045255-7648-4a4e-91d7-8413e28f0412/SCREEN.jpg<\/url><size>0<\/size><\/attachment><attachment id=\"1b7de2c9-5996-4da8-b53e-8f6c487bba9b\" type=\"presentation/segment+preview\" ref=\"track:df9799da-82d1-48ee-a6f7-3cd629404770;time=T00:26:50:380F1000\"><mimetype>image/jpeg<\/mimetype><tags><tag>engage-download<\/tag><\/tags><url>https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/a99e2ec5-6ad1-43a6-9a35-2d72836fd506/SCREEN.jpg<\/url><size>0<\/size><\/attachment><\/attachments><publications/><\/mediapackage>",
+            "mediaType": "AudioVisual",
+            "keywords": {
+                "keywords": ""
+            },
+            "modified": "2021-06-08T16:23:35.275+02:00",
+            "score": 11.952897,
+            "segments": {
+                "segment": [
+                    {
+                        "index": 0,
+                        "time": 0,
+                        "duration": 115625,
+                        "relevance": -1,
+                        "hit": false,
+                        "text": "",
+                        "previews": {
+                            "preview": {
+                                "ref": "df9799da-82d1-48ee-a6f7-3cd629404770",
+                                "$": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/b6431b9a-30cf-4f39-a440-e60a300263c5/SCREEN.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "index": 1,
+                        "time": 115625,
+                        "duration": 348042,
+                        "relevance": -1,
+                        "hit": false,
+                        "text": "",
+                        "previews": {
+                            "preview": {
+                                "ref": "df9799da-82d1-48ee-a6f7-3cd629404770",
+                                "$": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/e9bec2cb-2eda-48ec-88e2-e8a3c760b783/SCREEN.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "index": 2,
+                        "time": 463667,
+                        "duration": 240375,
+                        "relevance": -1,
+                        "hit": false,
+                        "text": "",
+                        "previews": {
+                            "preview": {
+                                "ref": "df9799da-82d1-48ee-a6f7-3cd629404770",
+                                "$": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/0c8a17aa-985d-4b6e-a9f5-b28c4a22ae16/SCREEN.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "index": 3,
+                        "time": 704042,
+                        "duration": 92354,
+                        "relevance": -1,
+                        "hit": false,
+                        "text": "",
+                        "previews": {
+                            "preview": {
+                                "ref": "df9799da-82d1-48ee-a6f7-3cd629404770",
+                                "$": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/89e6d2b5-a72c-4ddd-8165-96f196c995a3/SCREEN.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "index": 4,
+                        "time": 796396,
+                        "duration": 96896,
+                        "relevance": -1,
+                        "hit": false,
+                        "text": "",
+                        "previews": {
+                            "preview": {
+                                "ref": "df9799da-82d1-48ee-a6f7-3cd629404770",
+                                "$": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/3a700e93-54ba-45e6-a1e3-82a1748e8276/SCREEN.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "index": 5,
+                        "time": 893292,
+                        "duration": 136248,
+                        "relevance": -1,
+                        "hit": false,
+                        "text": "",
+                        "previews": {
+                            "preview": {
+                                "ref": "df9799da-82d1-48ee-a6f7-3cd629404770",
+                                "$": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/bb0f120e-f29b-499f-ade4-c6beed20deff/SCREEN.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "index": 6,
+                        "time": 1029540,
+                        "duration": 73710,
+                        "relevance": -1,
+                        "hit": false,
+                        "text": "",
+                        "previews": {
+                            "preview": {
+                                "ref": "df9799da-82d1-48ee-a6f7-3cd629404770",
+                                "$": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/a80e2713-12e0-4074-b5a0-51e1ce913fb6/SCREEN.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "index": 7,
+                        "time": 1103250,
+                        "duration": 97335,
+                        "relevance": -1,
+                        "hit": false,
+                        "text": "",
+                        "previews": {
+                            "preview": {
+                                "ref": "df9799da-82d1-48ee-a6f7-3cd629404770",
+                                "$": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/16ef0cdf-df67-415c-a735-7400b381dd73/SCREEN.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "index": 8,
+                        "time": 1200585,
+                        "duration": 86955,
+                        "relevance": -1,
+                        "hit": false,
+                        "text": "",
+                        "previews": {
+                            "preview": {
+                                "ref": "df9799da-82d1-48ee-a6f7-3cd629404770",
+                                "$": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/1ced1ea8-40d3-420e-ab89-dab5ddc7396e/SCREEN.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "index": 9,
+                        "time": 1287540,
+                        "duration": 100420,
+                        "relevance": -1,
+                        "hit": false,
+                        "text": "",
+                        "previews": {
+                            "preview": {
+                                "ref": "df9799da-82d1-48ee-a6f7-3cd629404770",
+                                "$": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/74a8aa07-85c6-4ba8-bc36-4164fa984a25/SCREEN.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "index": 10,
+                        "time": 1387960,
+                        "duration": 222420,
+                        "relevance": -1,
+                        "hit": false,
+                        "text": "",
+                        "previews": {
+                            "preview": {
+                                "ref": "df9799da-82d1-48ee-a6f7-3cd629404770",
+                                "$": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/c04f5e38-dec9-4134-b8ed-db5055340e95/SCREEN.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "index": 11,
+                        "time": 1610380,
+                        "duration": 114740,
+                        "relevance": -1,
+                        "hit": false,
+                        "text": "",
+                        "previews": {
+                            "preview": {
+                                "ref": "df9799da-82d1-48ee-a6f7-3cd629404770",
+                                "$": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/a99e2ec5-6ad1-43a6-9a35-2d72836fd506/SCREEN.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "index": 12,
+                        "time": 1725120,
+                        "duration": 375880,
+                        "relevance": -1,
+                        "hit": false,
+                        "text": "",
+                        "previews": {
+                            "preview": {
+                                "ref": "df9799da-82d1-48ee-a6f7-3cd629404770",
+                                "$": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/1d9f57f4-fba6-46dd-8fe9-61e72b2df43f/SCREEN.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "index": 13,
+                        "time": 2101000,
+                        "duration": 143380,
+                        "relevance": -1,
+                        "hit": false,
+                        "text": "",
+                        "previews": {
+                            "preview": {
+                                "ref": "df9799da-82d1-48ee-a6f7-3cd629404770",
+                                "$": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/5cea71bd-a6b4-485a-a2d5-ac9d58dc56a7/SCREEN.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "index": 14,
+                        "time": 2244380,
+                        "duration": 160790,
+                        "relevance": -1,
+                        "hit": false,
+                        "text": "",
+                        "previews": {
+                            "preview": {
+                                "ref": "df9799da-82d1-48ee-a6f7-3cd629404770",
+                                "$": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/95f406a1-9313-4172-a7d2-bab1ab17626d/SCREEN.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "index": 15,
+                        "time": 2405170,
+                        "duration": 445790,
+                        "relevance": -1,
+                        "hit": false,
+                        "text": "",
+                        "previews": {
+                            "preview": {
+                                "ref": "df9799da-82d1-48ee-a6f7-3cd629404770",
+                                "$": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/c56a0e87-959b-4d60-a4f3-d676f5092cad/SCREEN.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "index": 16,
+                        "time": 2850960,
+                        "duration": 172370,
+                        "relevance": -1,
+                        "hit": false,
+                        "text": "",
+                        "previews": {
+                            "preview": {
+                                "ref": "df9799da-82d1-48ee-a6f7-3cd629404770",
+                                "$": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/8eca8962-499a-4226-a1f8-b146cf564ed2/SCREEN.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "index": 17,
+                        "time": 3023330,
+                        "duration": 158420,
+                        "relevance": -1,
+                        "hit": false,
+                        "text": "",
+                        "previews": {
+                            "preview": {
+                                "ref": "df9799da-82d1-48ee-a6f7-3cd629404770",
+                                "$": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/4ce8c744-506c-4384-8fdf-588c8360ea9b/SCREEN.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "index": 18,
+                        "time": 3181750,
+                        "duration": 410500,
+                        "relevance": -1,
+                        "hit": false,
+                        "text": "",
+                        "previews": {
+                            "preview": {
+                                "ref": "df9799da-82d1-48ee-a6f7-3cd629404770",
+                                "$": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/f0e805d3-02de-4c45-b0e5-84299dfe3111/SCREEN.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "index": 19,
+                        "time": 3592250,
+                        "duration": 858710,
+                        "relevance": -1,
+                        "hit": false,
+                        "text": "",
+                        "previews": {
+                            "preview": {
+                                "ref": "df9799da-82d1-48ee-a6f7-3cd629404770",
+                                "$": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/3049fb1b-9b53-4106-b3c9-383eddcdd17e/SCREEN.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "index": 20,
+                        "time": 4450960,
+                        "duration": 210810,
+                        "relevance": -1,
+                        "hit": false,
+                        "text": "",
+                        "previews": {
+                            "preview": {
+                                "ref": "df9799da-82d1-48ee-a6f7-3cd629404770",
+                                "$": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/550dc834-8b24-4119-8750-f9792245cfc8/SCREEN.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "index": 21,
+                        "time": 4661770,
+                        "duration": 113105,
+                        "relevance": -1,
+                        "hit": false,
+                        "text": "",
+                        "previews": {
+                            "preview": {
+                                "ref": "df9799da-82d1-48ee-a6f7-3cd629404770",
+                                "$": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/1cab6cac-388f-4007-8e98-ba091812e006/SCREEN.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "index": 22,
+                        "time": 4774875,
+                        "duration": 95165,
+                        "relevance": -1,
+                        "hit": false,
+                        "text": "",
+                        "previews": {
+                            "preview": {
+                                "ref": "df9799da-82d1-48ee-a6f7-3cd629404770",
+                                "$": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/b67ce3b8-f585-436e-85fa-3b016630aaaf/SCREEN.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "index": 23,
+                        "time": 4870040,
+                        "duration": 91000,
+                        "relevance": -1,
+                        "hit": false,
+                        "text": "",
+                        "previews": {
+                            "preview": {
+                                "ref": "df9799da-82d1-48ee-a6f7-3cd629404770",
+                                "$": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/034043bf-dbaa-40ff-ad5c-5c08475cb5bd/SCREEN.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "index": 24,
+                        "time": 4961040,
+                        "duration": 1794000,
+                        "relevance": -1,
+                        "hit": false,
+                        "text": "",
+                        "previews": {
+                            "preview": {
+                                "ref": "df9799da-82d1-48ee-a6f7-3cd629404770",
+                                "$": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/474a8f33-1552-4744-99e9-abcb3a5402fd/SCREEN.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "index": 25,
+                        "time": 6755040,
+                        "duration": 1306795,
+                        "relevance": -1,
+                        "hit": false,
+                        "text": "",
+                        "previews": {
+                            "preview": {
+                                "ref": "df9799da-82d1-48ee-a6f7-3cd629404770",
+                                "$": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/92cf406e-a1fb-4a26-9291-97aced9ae474/SCREEN.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "index": 26,
+                        "time": 8061835,
+                        "duration": 683060,
+                        "relevance": -1,
+                        "hit": false,
+                        "text": "",
+                        "previews": {
+                            "preview": {
+                                "ref": "df9799da-82d1-48ee-a6f7-3cd629404770",
+                                "$": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/8d3482f1-8930-4966-9830-95d8ec9a89e2/SCREEN.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "index": 27,
+                        "time": 8744895,
+                        "duration": 255146,
+                        "relevance": -1,
+                        "hit": false,
+                        "text": "",
+                        "previews": {
+                            "preview": {
+                                "ref": "df9799da-82d1-48ee-a6f7-3cd629404770",
+                                "$": "https://engage.videoapuntes.upv.es/static/mh_default_org/engage-player/df1eb5e0-ac13-11eb-acc9-41e86d35166f/4c045255-7648-4a4e-91d7-8413e28f0412/SCREEN.jpg"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
