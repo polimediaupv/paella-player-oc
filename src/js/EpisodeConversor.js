@@ -102,6 +102,31 @@ function getMetadata(episode) {
     return result;
 }
 
+function mergeSources(sources) {
+    const streams = [];
+    sources.forEach(sourceData => {
+        const { content, type, source } = sourceData;
+        let stream = streams.find(s => s.content === content);
+        if (!stream) {
+            stream = {
+                sources: {},
+                content: content
+            }
+            // TODO: Determine wich stream is the main audio
+            if (content === 'presenter') {
+                stream.role = "mainAudio";
+            }
+            
+            streams.push(stream);
+        }
+
+        stream.sources[type] = stream.sources[type] || [];
+        stream.sources[type].push(source);
+    });
+
+    return streams;
+}
+
 function getStreams(episode) {
     const { track } = episode.mediapackage?.media;
 
@@ -112,10 +137,7 @@ function getStreams(episode) {
         sourceData && sources.push(sourceData);
     });
 
-    // TODO: group source data
-    console.log(sources);
-
-    return sources;
+    return mergeSources(sources);
 }
 
 function getFrameList(episode) {
