@@ -2,6 +2,8 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
+const ocServer = 'https://engage.videoapuntes.upv.es';
+
 module.exports = {
 	entry: './src/index.js',
 	output: {
@@ -17,6 +19,19 @@ module.exports = {
 			"Access-Control-Allow-Origin": "*",
 			"Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",
 			"Access-Control-Allow-Headers": "X-Requested-With, content-type, Authorization"
+		},
+		proxy: {
+			"/search/**": {
+				target: ocServer,
+				secure: false,
+				changeOrigin: true
+			},
+			"/paella/config": {
+				target: 'http://localhost:8080',
+				pathRewrite: {
+					'/paella/config': '/config'
+				}
+			}
 		}
 	},
 	
