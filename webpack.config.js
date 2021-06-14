@@ -26,11 +26,31 @@ module.exports = {
 				secure: false,
 				changeOrigin: true
 			},
+			"/info/**": {
+				target: ocServer,
+				secure: false,
+				changeOrigin: true
+			},
+			"/annotation/**": {
+				target: ocServer,
+				secure: false,
+				changeOrigin: true
+			},
 			"/paella/config": {
 				target: 'http://localhost:8080',
 				pathRewrite: {
 					'/paella/config': '/config'
 				}
+			},
+			"/engage/ui/**": {
+				target: ocServer,
+				secure: false,
+				changeOrigin: true
+			},
+			"/play/**": {
+				target: ocServer,
+				secure: false,
+				changeOrigin: true
 			}
 		}
 	},

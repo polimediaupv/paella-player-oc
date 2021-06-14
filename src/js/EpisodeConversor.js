@@ -90,9 +90,11 @@ function getSourceData(track) {
 }
 
 function getMetadata(episode) {
-    const { duration, title } = episode.mediapackage;
+    const { duration, title, attachments } = episode.mediapackage;
     
     // TODO: preview image
+    
+
 
     const result = {
         title,
@@ -128,7 +130,10 @@ function mergeSources(sources) {
 }
 
 function getStreams(episode) {
-    const { track } = episode.mediapackage?.media;
+    let { track } = episode.mediapackage?.media;
+    if (!Array.isArray(track)) {
+        track = [track];
+    }
 
     const sources = [];
 
@@ -141,9 +146,33 @@ function getStreams(episode) {
 }
 
 function getFrameList(episode) {
-    const result = null;
+    const { attachments } = episode.mediapackage;
+    const previewImages = []
+    let attachment = attachments?.attachment || [];
+    if (!Array.isArray(attachment)) {
+        attachment = [attachment];
+    }
 
-    return result;
+    attachment.forEach(att => {
+        const timeRE = /time=T(\d+):(\d+):(\d+)/.exec(att.ref);
+        if (att.type === 'presentation/segment+preview' && timeRE) {
+            const h = Number(timeRE[1]) * 60 * 60;
+            const m = Number(timeRE[2]) * 60;
+            const s = timeRE[3];
+            const t = h + m + s;
+            console.log(t);
+            previewImages.push(att);
+        }
+        else if (att.type === 'presentation/player+preview') {
+            // presentation preview
+        }
+        else if (att.type === 'presenter/player+preview') {
+            // presenter preview
+        }
+    });
+
+    console.log(previewImages);
+    return previewImages;
 }
 
 function getCaptions(episode) {
