@@ -27,12 +27,39 @@ const initParams = {
     },
 
     loadVideoManifest: async (url) => {
-        const response = await fetch(url);
-        const data = await response.json();
-
-        const conversor = new EpisodeConversor(data);
         
-        return conversor.data;
+        const loadEpisode = async () => {
+            const response = await fetch(url);
+
+            if (response.ok) {
+                const data = await response.json();    
+                const conversor = new EpisodeConversor(data);
+                return conversor.data;
+            }
+            else {
+                throw Error("Invalid manifest url");
+            }
+        }
+
+        const data = await loadEpisode();        
+        if (data === null) {
+            console.log("Try to load me.json")
+            // Check me.json, if the user is not logged in, redirect to login
+            const data = await fetch('/info/me.json');
+            const me = await data.json();
+
+            if (me.userRole === "ROLE_USER_ANONYMOUS") {
+                location.href = 'auth.html?redirect=' + encodeURIComponent(window.location.href);
+            }
+            else {
+                // TODO: the video does not exist or the user can't see it
+                alert("The video does not exist");
+                return null;
+            }
+        }
+        else {
+            return data;
+        }
     }
 };
 

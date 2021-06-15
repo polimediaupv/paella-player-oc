@@ -90,12 +90,8 @@ function getSourceData(track) {
 }
 
 function getMetadata(episode) {
-    const { duration, title, attachments } = episode.mediapackage;
+    const { duration, title } = episode.mediapackage;
     
-    // TODO: preview image
-    
-
-
     const result = {
         title,
         duration: duration / 1000
@@ -145,9 +141,11 @@ function getStreams(episode) {
     return mergeSources(sources);
 }
 
-function getFrameList(episode) {
+function processAttachments(episode, manifest) {
     const { attachments } = episode.mediapackage;
-    const previewImages = []
+    const previewImages = [];
+    let videoPreview = null;
+
     let attachment = attachments?.attachment || [];
     if (!Array.isArray(attachment)) {
         attachment = [attachment];
@@ -159,20 +157,33 @@ function getFrameList(episode) {
             const h = Number(timeRE[1]) * 60 * 60;
             const m = Number(timeRE[2]) * 60;
             const s = timeRE[3];
-            const t = h + m + s;
-            console.log(t);
-            previewImages.push(att);
-        }
-        else if (att.type === 'presentation/player+preview') {
-            // presentation preview
+            const t = (h + m + s) / 100;
+            previewImages.push({
+                mimetype: att.mimetype,
+                url: att.url,
+                thumb: att.url,
+                id: `frame_${t}`,
+                time: t
+            });
         }
         else if (att.type === 'presenter/player+preview') {
             // presenter preview
+            videoPreview = att.url;
+        }
+        else if (att.type === 'presentation/player+preview' && videoPreview === null) {
+            // presentation preview
+            videoPreview = att.url;
         }
     });
 
-    console.log(previewImages);
-    return previewImages;
+    if (previewImages.length>0) {
+        manifest.frameList = previewImages;
+    }
+
+    if (videoPreview) {
+        manifest.metadata = manifest.metadata || {};
+        manifest.metadata.preview = videoPreview;
+    }
 }
 
 function getCaptions(episode) {
@@ -187,15 +198,13 @@ export function episodeToManifest(ocResponse) {
         const episode = searchResults.result; 
         const metadata = getMetadata(episode);
         const streams = getStreams(episode);
-        const frameList = getFrameList(episode);
-        const captions = getCaptions(episode);
-    
+        
         const result = {
             metadata,
-            streams,
-            frameList,
-            captions
+            streams
         };
+
+        processAttachments(episode, result);
    
         console.log(result);
 
@@ -203,7 +212,7 @@ export function episodeToManifest(ocResponse) {
     }
     else {
         console.error(ocResponse);
-        throw Error("Malformed episode data.");
+        return null;
     }
 
 }

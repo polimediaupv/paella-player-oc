@@ -97,7 +97,8 @@ module.exports = {
 		new CopyWebpackPlugin({
 			patterns: [
 				{ from: './config', to: 'config' },
-				{ from: './src/style.css', to: '' }
+				{ from: './src/style.css', to: '' },
+				{ from: './src/auth.html', to: '' }
 			]
 		})
 	]
