@@ -159,7 +159,7 @@ function processAttachments(episode, manifest) {
             const s = timeRE[3];
             const t = (h + m + s) / 100;
             previewImages.push({
-                mimetype: att.mimetype,
+            mimetype: att.mimetype,
                 url: att.url,
                 thumb: att.url,
                 id: `frame_${t}`,

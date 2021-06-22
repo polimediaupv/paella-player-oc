@@ -7,7 +7,7 @@ const ocServer = 'https://engage.videoapuntes.upv.es';
 module.exports = {
 	entry: './src/index.js',
 	output: {
-		path: path.join(__dirname,"dist"),
+		path: path.join(__dirname,"dist/"),
 		filename: 'paella-player.js',
 		sourceMapFilename: 'paella-player.js.map'
 	},
@@ -40,6 +40,12 @@ module.exports = {
 				target: 'http://localhost:8080',
 				pathRewrite: {
 					'/paella/config': '/config'
+				}
+			},
+			"/paella/ui": {
+				target: 'http://localhost:8080',
+				pathRewrite: {
+					'/paella/ui': ''
 				}
 			},
 			"/engage/ui/**": {
@@ -91,7 +97,8 @@ module.exports = {
 	
 	plugins: [
 		new HtmlWebpackPlugin({
-			template: 'src/index.html',
+			template: 'src/watch.html',
+			filename: 'watch.html',
 			inject: true
 		}),
 		new CopyWebpackPlugin({

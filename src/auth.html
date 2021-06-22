@@ -16,14 +16,14 @@
 				search[p[0]] = p[1];
 			});
 
-			var redirect = search['reirect'];
+			var redirect = search['redirect'];
 			var id = search['id'];
 			var series = search['series'] || search['sid'] || search['epFrom'];
 			if (redirect != undefined) {
 				window.location.href = decodeURIComponent(redirect);
 			}
 			else if (id != undefined) {
-				window.location.href = "index.html?id=" + id;
+				window.location.href = "/paella/ui/watch.html?id=" + id;
 			}
 			else if (series != undefined) {
 				window.location.href = "/engage/ui/index.html?epFrom=" + series;
