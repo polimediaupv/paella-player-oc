@@ -3,6 +3,19 @@
     "manifestFileName": "data.json",
 
     "defaultLayout": "presenter-presentation",
+
+    "opencast": {
+        "previewAttachment": "presentation/segment+preview",
+        "mainAudioContent": "presenter",
+        "contentTypes": {
+            "presentation/delivery": "presentation",
+            "presenter/delivery": "presenter"
+        },
+        "videoPreviewAttachment": [
+            "presenter/player+preview",
+            "presentation/player+preview"
+        ]
+    },
     
     "plugins": {
         "es.upv.paella.singleVideo": {

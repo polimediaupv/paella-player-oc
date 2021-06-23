@@ -26,14 +26,13 @@ const initParams = {
         return manifestUrl;
     },
 
-    loadVideoManifest: async (url) => {
-        
+    loadVideoManifest: async function (url, config) {
         const loadEpisode = async () => {
             const response = await fetch(url);
 
             if (response.ok) {
                 const data = await response.json();    
-                const conversor = new EpisodeConversor(data);
+                const conversor = new EpisodeConversor(data, config.opencast || {});
                 return conversor.data;
             }
             else {

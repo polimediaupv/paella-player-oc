@@ -58,7 +58,7 @@ const g_streamTypes = [
     }
 ];
 
-function getStreamType(track) {
+function getStreamType(track,config) {
     const result = g_streamTypes.find(typeData => {
         let match = typeData.enabled;
         for (const condition in typeData.conditions) {
@@ -73,14 +73,15 @@ function getStreamType(track) {
     return result;
 }
 
-function getSourceData(track) {
+function getSourceData(track, config) {
     let data = null;
-    const type = g_contentTypes[track.type];
+    const contentTypes = config.contentTypes || g_contentTypes;
+    const type = contentTypes[track.type];
     if (type) {
-        const streamType = getStreamType(track);
+        const streamType = getStreamType(track, config);
         if (streamType) {
             data = {
-                source: streamType.getSourceData(track),
+                source: streamType.getSourceData(track, config),
                 type: streamType.streamType,
                 content: type
             }
@@ -89,7 +90,7 @@ function getSourceData(track) {
     return data;
 }
 
-function getMetadata(episode) {
+function getMetadata(episode, config) {
     const { duration, title } = episode.mediapackage;
     
     const result = {
@@ -100,7 +101,7 @@ function getMetadata(episode) {
     return result;
 }
 
-function mergeSources(sources) {
+function mergeSources(sources, config) {
     const streams = [];
     sources.forEach(sourceData => {
         const { content, type, source } = sourceData;
@@ -110,8 +111,8 @@ function mergeSources(sources) {
                 sources: {},
                 content: content
             }
-            // TODO: Determine wich stream is the main audio
-            if (content === 'presenter') {
+
+            if (content === config.mainAudioContent) {
                 stream.role = "mainAudio";
             }
             
@@ -125,7 +126,7 @@ function mergeSources(sources) {
     return streams;
 }
 
-function getStreams(episode) {
+function getStreams(episode, config) {
     let { track } = episode.mediapackage?.media;
     if (!Array.isArray(track)) {
         track = [track];
@@ -134,14 +135,14 @@ function getStreams(episode) {
     const sources = [];
 
     track.forEach(track => {
-        const sourceData = getSourceData(track);
+        const sourceData = getSourceData(track, config);
         sourceData && sources.push(sourceData);
     });
 
-    return mergeSources(sources);
+    return mergeSources(sources, config);
 }
 
-function processAttachments(episode, manifest) {
+function processAttachments(episode, manifest, config) {
     const { attachments } = episode.mediapackage;
     const previewImages = [];
     let videoPreview = null;
@@ -151,9 +152,14 @@ function processAttachments(episode, manifest) {
         attachment = [attachment];
     }
 
+    const previewAttachment = config.previewAttachment || 'presentation/segment+preview';
+    const videoPreviewAttachments = config.videoPreviewAttachments || [
+        "presenter/player+preview",
+        "presentation/player+preview"
+    ];
     attachment.forEach(att => {
         const timeRE = /time=T(\d+):(\d+):(\d+)/.exec(att.ref);
-        if (att.type === 'presentation/segment+preview' && timeRE) {
+        if (att.type === previewAttachment && timeRE) {
             const h = Number(timeRE[1]) * 60 * 60;
             const m = Number(timeRE[2]) * 60;
             const s = timeRE[3];
@@ -166,13 +172,13 @@ function processAttachments(episode, manifest) {
                 time: t
             });
         }
-        else if (att.type === 'presenter/player+preview') {
-            // presenter preview
-            videoPreview = att.url;
-        }
-        else if (att.type === 'presentation/player+preview' && videoPreview === null) {
-            // presentation preview
-            videoPreview = att.url;
+        else {
+            videoPreviewAttachments.some(validAttachment => {
+                if (validAttachment === att.type) {
+                    videoPreview = att.url;
+                }
+                return videoPreview !== null;
+            })
         }
     });
 
@@ -186,27 +192,25 @@ function processAttachments(episode, manifest) {
     }
 }
 
-function getCaptions(episode) {
+function getCaptions(episode, config) {
     const result = null;
 
     return result;
 }
 
-export function episodeToManifest(ocResponse) {
+export function episodeToManifest(ocResponse, config) {
     const searchResults = ocResponse['search-results'];
     if (searchResults?.total === 1) {
         const episode = searchResults.result; 
-        const metadata = getMetadata(episode);
-        const streams = getStreams(episode);
+        const metadata = getMetadata(episode, config);
+        const streams = getStreams(episode, config);
         
         const result = {
             metadata,
             streams
         };
 
-        processAttachments(episode, result);
-   
-        console.log(result);
+        processAttachments(episode, result, config);
 
         return result;
     }
@@ -218,8 +222,8 @@ export function episodeToManifest(ocResponse) {
 }
 
 export default class EpisodeConversor {
-    constructor(episodeJson) {
-        this._data = episodeToManifest(episodeJson);
+    constructor(episodeJson, config = {}) {
+        this._data = episodeToManifest(episodeJson, config);
     }
 
     get data() {
