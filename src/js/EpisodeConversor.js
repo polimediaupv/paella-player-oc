@@ -193,7 +193,21 @@ function processAttachments(episode, manifest, config) {
 }
 
 function getCaptions(episode, config) {
-    const result = null;
+    const result = [];
+    const { attachments } = episode.mediapackage;
+    attachments?.attachment.forEach(att => {
+        const exp = /captions\/([a-z\d]+)(?:\+([a-z]+))?/.exec(att.type);
+        if (exp) {
+            const format = exp[1];
+            const lang = exp[2] || "";
+            result.push({
+                lang: lang,
+                text: lang || "Unknown language",
+                format: format,
+                url:att.url
+            });
+        }
+    });
 
     return result;
 }
@@ -204,13 +218,17 @@ export function episodeToManifest(ocResponse, config) {
         const episode = searchResults.result; 
         const metadata = getMetadata(episode, config);
         const streams = getStreams(episode, config);
+        const captions = getCaptions(episode, config);
         
         const result = {
             metadata,
-            streams
+            streams,
+            captions
         };
 
         processAttachments(episode, result, config);
+
+
 
         return result;
     }
