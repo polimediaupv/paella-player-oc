@@ -194,13 +194,19 @@ function processAttachments(episode, manifest, config) {
 
 function getCaptions(episode, config) {
     const result = [];
-    const { attachments } = episode.mediapackage;
-    attachments?.attachment.forEach(att => {
+    let attachments = episode.mediapackage?.attachments?.attachment;
+    if (!(attachments instanceof Array)) { 
+        attachments = attachments ? [attachments] : []; 
+    }
+    
+
+    attachments.forEach(att => {
         const exp = /captions\/([a-z\d]+)(?:\+([a-z]+))?/.exec(att.type);
         if (exp) {
             const format = exp[1];
             const lang = exp[2] || "";
             result.push({
+                id: att.id,
                 lang: lang,
                 text: lang || "Unknown language",
                 format: format,
@@ -209,6 +215,43 @@ function getCaptions(episode, config) {
         }
     });
 
+    let catalogs = episode.mediapackage?.metadata?.catalog;
+    if (!(catalogs instanceof Array)) {
+        catalogs = catalogs ? [catalogs] : []; 
+    }
+
+    catalogs.forEach((currentCatalog) => {
+        try {
+          // backwards compatibility:
+          // Catalogs flavored as 'captions/timedtext' are assumed to be dfxp
+          if (currentCatalog.type == 'captions/timedtext') {
+            let captions_lang;
+  
+            if (currentCatalog.tags && currentCatalog.tags.tag) {
+              if (!(currentCatalog.tags.tag instanceof Array)) {
+                currentCatalog.tags.tag = [currentCatalog.tags.tag];
+              }
+              currentCatalog.tags.tag.forEach((tag)=>{
+                if (tag.startsWith('lang:')){
+                  let split = tag.split(':');
+                  captions_lang = split[1];
+                }
+              });
+            }
+  
+            let captions_label = captions_lang || 'unknown language';
+            result.push({
+              id: currentCatalog.id,
+              lang: captions_lang,
+              text: captions_label,
+              url: currentCatalog.url,
+              format: 'dfxp'
+            });
+          }
+        }
+        catch (err) {/**/}
+      });
+    
     return result;
 }
 
