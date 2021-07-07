@@ -161,6 +161,14 @@
         "es.upv.paella.audioSelector": {
             "enabled": true,
             "side": "right"
+        },
+
+        "es.upv.paella.defaultShortcuts": {
+            "enabled": true
+        },
+
+        "es.upv.paella.opencastKeyShortcuts": {
+            "enabled": true
         }
     }
 }
