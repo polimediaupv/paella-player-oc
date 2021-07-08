@@ -5,6 +5,10 @@ export default class OpencastKeyShortcuts extends KeyShortcutPlugin {
         return [
             {
                 keyCode: KeyCodes.KeyM,
+                keyModifiers: {
+                    altKey: true,
+                    ctrlKey: true
+                },
                 description: "Mute audio",
                 action: async event => {
                     await this.player.videoContainer?.setVolume(0);
@@ -12,6 +16,10 @@ export default class OpencastKeyShortcuts extends KeyShortcutPlugin {
             },
             {
                 keyCode: KeyCodes.KeyP,
+                keyModifiers: {
+                    altKey: true,
+                    ctrlKey: true
+                },
                 description: "Toggle play pause",
                 action: async event => {
                     const paused = await this.player.paused();
@@ -25,6 +33,10 @@ export default class OpencastKeyShortcuts extends KeyShortcutPlugin {
             },
             {
                 keyCode: KeyCodes.KeyS,
+                keyModifiers: {
+                    altKey: true,
+                    ctrlKey: true
+                },
                 description: "Pause video",
                 action: async event => {
                     await this.player.pause();
@@ -32,6 +44,10 @@ export default class OpencastKeyShortcuts extends KeyShortcutPlugin {
             },
             {
                 keyCode: KeyCodes.KeyU,
+                keyModifiers: {
+                    altKey: true,
+                    ctrlKey: true
+                },
                 description: "Increment audio volume",
                 action: async event => {
                     const vol = await this.player.videoContainer?.volume();
@@ -44,6 +60,10 @@ export default class OpencastKeyShortcuts extends KeyShortcutPlugin {
             },
             {
                 keyCode: KeyCodes.KeyD,
+                keyModifiers: {
+                    altKey: true,
+                    ctrlKey: true
+                },
                 description: "Decrement audio volume",
                 action: async event => {
                     const vol = await this.player.videoContainer?.volume();
