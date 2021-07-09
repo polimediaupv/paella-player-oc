@@ -91,12 +91,21 @@ function getSourceData(track, config) {
 }
 
 function getMetadata(episode, config) {
-    const { duration, title } = episode.mediapackage;
-    
+    const { duration, title, language, series, seriestitle } = episode.mediapackage;
+    const creators = (Array.isArray(episode.mediapackage?.creators) ? 
+        episode.mediapackage?.creators : 
+        [episode.mediapackage?.creators])
+            .map(creator => creator.creator);
+
     const result = {
         title,
-        duration: duration / 1000
+        duration: duration / 1000,
+        creators,
+        language,
+        series,
+        seriestitle
     };
+
 
     return result;
 }
