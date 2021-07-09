@@ -92,6 +92,7 @@ function getSourceData(track, config) {
 
 function getMetadata(episode, config) {
     const { duration, title, language, series, seriestitle } = episode.mediapackage;
+    const date = new Date(episode.dcCreated);
     const creators = (Array.isArray(episode.mediapackage?.creators) ? 
         episode.mediapackage?.creators : 
         [episode.mediapackage?.creators])
@@ -103,7 +104,8 @@ function getMetadata(episode, config) {
         creators,
         language,
         series,
-        seriestitle
+        seriestitle,
+        date
     };
 
 
