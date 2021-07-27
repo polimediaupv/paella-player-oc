@@ -167,6 +167,14 @@
             "enabled": true
         },
 
+        "es.upv.paella.arrowSlidesNavigator": {
+            "enabled": true,
+            "target": [
+                "presentation",
+                "presenter"
+            ]
+        },
+
         "es.upv.paella.opencastKeyShortcuts": {
             "enabled": true
         }
