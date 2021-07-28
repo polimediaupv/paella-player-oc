@@ -183,6 +183,12 @@
             "enabled": true,
             "side": "right",
             "groupName": "toolsGroup"
+        },
+
+        "es.upv.paella.descriptionPlugin": {
+            "enabled": true,
+            "parentContainer": "toolsGroup",
+            "description": "Video description and data"
         }
     }
 }

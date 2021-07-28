@@ -16,10 +16,12 @@
   "author": "Fernando Serrano Carpena <ferserc1@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "paella-core": "^1.0.0-beta.17",
+    "css-loader": "^6.2.0",
     "paella-basic-plugins": "^1.0.0-beta.2",
+    "paella-core": "^1.0.0-beta.17",
     "paella-slide-plugins": "^1.0.0-beta.4",
-    "paella-zoom-plugin": "^1.0.0-beta.2"
+    "paella-zoom-plugin": "^1.0.0-beta.2",
+    "style-loader": "^3.2.1"
   },
   "devDependencies": {
     "@babel/core": "^7.14.3",
