@@ -177,6 +177,12 @@
 
         "es.upv.paella.opencastKeyShortcuts": {
             "enabled": true
+        },
+
+        "es.upv.paella.toolsGroupPlugin": {
+            "enabled": true,
+            "side": "right",
+            "groupName": "toolsGroup"
         }
     }
 }
