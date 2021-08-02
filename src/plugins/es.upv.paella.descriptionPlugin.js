@@ -1,6 +1,7 @@
 import {
     PopUpButtonPlugin,
-    createElementWithHtmlText
+    createElementWithHtmlText,
+    translate
 } from 'paella-core';
 
 import '../css/DescriptionPlugin.css';
@@ -26,45 +27,45 @@ export default class DescriptionPlugin extends PopUpButtonPlugin {
         <div>
             <div class="showMHDescriptionTabBarLeft">
                 <div class="showMHDescriptionTabBarElement">
-                    Title: 
+                    ${translate('Title')}: 
                     <span class="showMHDescriptionTabBarValue">${title}</span>
                 </div>
                 <div class="showMHDescriptionTabBarElement">
-                    Presenter:
+                    ${translate('Presenter')}:
                     <span class="showMHDescriptionTabBarValue">
                         <a href="/engage/ui/index.html?q=${presenter}">${presenter}</a>
                     </span>
                 </div>
                 <div class="showMHDescriptionTabBarElement">
-                    Series: 
+                    ${translate('Series')}: 
                     <span class="showMHDescriptionTabBarValue">
                         <a href="/engage/ui/index.html?epFrom=${series}">${series}</a>
                     </span>
                 </div>
                 <div class="showMHDescriptionTabBarElement">
-                    Date:
+                    ${translate('Date')}:
                     <span class="showMHDescriptionTabBarValue">${date}</span>
                 </div>
                 <div class="showMHDescriptionTabBarElement">
-                    Vistas:
+                    ${translate('Views')}:
                     <span class="showMHDescriptionTabBarValue">${views}</span>
                 </div>
             </div>
             <div class="showMHDescriptionTabBarRight">
                 <div class="showMHDescriptionTabBarElement">
-                    Colaborador:
+                    ${translate('Collaborator')}:
                     <span class="showMHDescriptionTabBarValue">${collaborator}</span>
                 </div>
                 <div class="showMHDescriptionTabBarElement">
-                    Tema:
+                    ${translate('Subject')}:
                     <span class="showMHDescriptionTabBarValue"></span>
                 </div>
                 <div class="showMHDescriptionTabBarElement">
-                    Idioma:
+                    ${translate('Language')}:
                     <span class="showMHDescriptionTabBarValue">${language}</span>
                 </div>
                 <div class="showMHDescriptionTabBarElement">
-                    Descripción: 
+                    ${translate('Description')}: 
                     <span class="showMHDescriptionTabBarValue"></span>
                 </div>
             </div>

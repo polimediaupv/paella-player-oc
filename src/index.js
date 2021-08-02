@@ -1,10 +1,12 @@
 
-import { Paella } from 'paella-core';
+import { addDictionary, Paella } from 'paella-core';
 import getBasicPluginContext from 'paella-basic-plugins';
 import getSlidePluginContext from 'paella-slide-plugins';
 import getZoomPluginContext from 'paella-zoom-plugin';
 
 import EpisodeConversor from './js/EpisodeConversor.js';
+
+import DictionaryEs from './dictionary.es.json';
 
 const initParams = {
     customPluginContext: [
@@ -59,6 +61,11 @@ const initParams = {
         else {
             return data;
         }
+    },
+
+    loadDictionaries: player => {
+        player.setLanguage("es");
+        player.addDictionary('es', DictionaryEs);
     }
 };
 
