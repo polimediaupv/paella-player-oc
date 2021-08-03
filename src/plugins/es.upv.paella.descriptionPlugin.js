@@ -24,49 +24,49 @@ export default class DescriptionPlugin extends PopUpButtonPlugin {
         const collaborator = creators[1] || "";
 
         const content = createElementWithHtmlText(`
-        <div>
-            <div class="showMHDescriptionTabBarLeft">
-                <div class="showMHDescriptionTabBarElement">
+        <div class="description-plugin">
+            <div class="table-column">
+                <div class="table-item">
                     ${translate('Title')}: 
-                    <span class="showMHDescriptionTabBarValue">${title}</span>
+                    <span class="item-value">${title}</span>
                 </div>
-                <div class="showMHDescriptionTabBarElement">
+                <div class="table-item">
                     ${translate('Presenter')}:
-                    <span class="showMHDescriptionTabBarValue">
+                    <span class="item-value">
                         <a href="/engage/ui/index.html?q=${presenter}">${presenter}</a>
                     </span>
                 </div>
-                <div class="showMHDescriptionTabBarElement">
+                <div class="table-item">
                     ${translate('Series')}: 
-                    <span class="showMHDescriptionTabBarValue">
+                    <span class="item-value">
                         <a href="/engage/ui/index.html?epFrom=${series}">${series}</a>
                     </span>
                 </div>
-                <div class="showMHDescriptionTabBarElement">
+                <div class="table-item">
                     ${translate('Date')}:
-                    <span class="showMHDescriptionTabBarValue">${date}</span>
+                    <span class="item-value">${(new Date(date)).toLocaleDateString()}</span>
                 </div>
-                <div class="showMHDescriptionTabBarElement">
+                <div class="table-item">
                     ${translate('Views')}:
-                    <span class="showMHDescriptionTabBarValue">${views}</span>
+                    <span class="item-value">${views}</span>
                 </div>
             </div>
-            <div class="showMHDescriptionTabBarRight">
-                <div class="showMHDescriptionTabBarElement">
+            <div class="table-column">
+                <div class="table-item">
                     ${translate('Collaborator')}:
-                    <span class="showMHDescriptionTabBarValue">${collaborator}</span>
+                    <span class="item-value">${collaborator}</span>
                 </div>
-                <div class="showMHDescriptionTabBarElement">
+                <div class="table-item">
                     ${translate('Subject')}:
-                    <span class="showMHDescriptionTabBarValue"></span>
+                    <span class="item-value"></span>
                 </div>
-                <div class="showMHDescriptionTabBarElement">
+                <div class="table-item">
                     ${translate('Language')}:
-                    <span class="showMHDescriptionTabBarValue">${language}</span>
+                    <span class="item-value">${language}</span>
                 </div>
-                <div class="showMHDescriptionTabBarElement">
+                <div class="table-item">
                     ${translate('Description')}: 
-                    <span class="showMHDescriptionTabBarValue"></span>
+                    <span class="item-value"></span>
                 </div>
             </div>
         </div>
