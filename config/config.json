@@ -189,6 +189,12 @@
             "enabled": true,
             "parentContainer": "toolsGroup",
             "description": "Video description and data"
+        },
+
+        "es.upv.paella.transcriptionsPlugin": {
+            "enabled": true,
+            "parentContainer": "toolsGroup",
+            "description": "Audio transcriptions"
         }
     }
 }
