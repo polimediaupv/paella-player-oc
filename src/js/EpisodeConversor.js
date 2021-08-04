@@ -153,6 +153,22 @@ function getStreams(episode, config) {
     return mergeSources(sources, config);
 }
 
+function processSegments(episode, manifest, config) {
+    const { segments } = episode;
+    if (segments) {
+        manifest.transcriptions = manifest.transcriptions || [];
+        segments.segment.forEach(({ index, previews, text, time, duration}) => {
+            manifest.transcriptions.push({
+                index,
+                preview: previews?.preview?.$,
+                text,
+                time,
+                duration
+            });
+        });
+    }
+}
+
 function processAttachments(episode, manifest, config) {
     const { attachments } = episode.mediapackage;
     const previewImages = [];
@@ -281,6 +297,7 @@ export function episodeToManifest(ocResponse, config) {
         };
 
         processAttachments(episode, result, config);
+        processSegments(episode, result, config);
 
 
 
