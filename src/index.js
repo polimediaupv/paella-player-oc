@@ -42,7 +42,25 @@ const initParams = {
             }
         }
 
+        const loadStats = async () => {
+            const videoId = await this.getVideoId();
+            const response = await fetch(`/usertracking/stats.json?id=${videoId}`);
+            console.log(response);
+            if (response.ok) {
+                const data = await response.json();
+                return data.stats;
+            }
+            else {
+                null;
+            }
+        }
+
         const data = await loadEpisode();        
+        const stats = await loadStats();
+        if (stats) {
+            data.metadata.views = stats.views;
+        }
+
         if (data === null) {
             console.log("Try to load me.json")
             // Check me.json, if the user is not logged in, redirect to login

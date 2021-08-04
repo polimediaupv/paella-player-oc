@@ -17,9 +17,9 @@ export default class DescriptionPlugin extends PopUpButtonPlugin {
             language,
             series,
             seriesTitle,
-            date
+            date,
+            views
         } = this.player.videoManifest.metadata;
-        const views = 0;
         const presenter = creators[0] || "";
         const collaborator = creators[1] || "";
 

@@ -57,6 +57,11 @@ module.exports = {
 				target: ocServer,
 				secure: false,
 				changeOrigin: true
+			},
+			"/usertracking/stats.json": {
+				target: ocServer,
+				secure: false,
+				changeOrigin: true
 			}
 		}
 	},
