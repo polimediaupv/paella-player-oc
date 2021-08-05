@@ -1,3 +1,14 @@
-.transcriptions-container {
-    
+
+.transcriptions-container ul {
+    max-height: 300px;
+    overflow: auto;
+    list-style-type: none;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+    margin-inline-start: 3px;
+    padding-inline-start: 0px;
+}
+
+.transcriptions-container ul li img {
+    width: 100px;
 }
