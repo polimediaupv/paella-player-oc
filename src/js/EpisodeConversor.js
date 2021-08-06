@@ -157,7 +157,7 @@ function processSegments(episode, manifest, config) {
     const { segments } = episode;
     if (segments) {
         manifest.transcriptions = manifest.transcriptions || [];
-        segments.segment.forEach(({ index, previews, text, time, duration}) => {
+        segments.segment.forEach(({ index, previews, text, time, duration}) => { 
             manifest.transcriptions.push({
                 index,
                 preview: previews?.preview?.$,

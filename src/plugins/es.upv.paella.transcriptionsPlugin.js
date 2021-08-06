@@ -46,8 +46,6 @@ export default class TranscriptionsPlugin extends PopUpButtonPlugin {
         <input type="search" placeholder="${translate("Search")}"></input>`, container);
         searchContainer.addEventListener("click", evt => evt.stopPropagation());
         searchContainer.addEventListener("keyup", evt => {
-            //console.log(evt.target.value);
-            // TODO: Implement search
             this.rebuildList(evt.target.value);
         });
         const transcriptionsContainer = createElementWithHtmlText(`
