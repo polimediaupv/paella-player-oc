@@ -9,7 +9,9 @@
         "mainAudioContent": "presenter",
         "contentTypes": {
             "presentation/delivery": "presentation",
-            "presenter/delivery": "presenter"
+            "presenter/delivery": "presenter",
+            "presentation/preview": "presentation",
+            "presenter/preview": "presenter"
         },
         "videoPreviewAttachment": [
             "presenter/player+preview",

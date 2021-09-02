@@ -2,7 +2,8 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
-const ocServer = 'https://engage.videoapuntes.upv.es';
+//const ocServer = 'https://engage.videoapuntes.upv.es';
+const ocServer = 'https://legacy.opencast.org';
 
 module.exports = {
 	entry: './src/index.js',
