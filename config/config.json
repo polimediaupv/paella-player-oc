@@ -148,6 +148,10 @@
             "enabled": true
         },
 
+        "es.upv.paella.hlsCaptionsPlugin": {
+            "enabled": true
+        },
+
         "es.upv.paella.captionsSelectorPlugin": {
             "enabled": true,
             "side": "right",

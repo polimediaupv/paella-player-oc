@@ -20,15 +20,15 @@ const initParams = {
 
     repositoryUrl: '/search/episode.json',
 
-    getManifestUrl: (repoUrl,videoId) => {
+    getManifestUrl: (repoUrl,videoId,player) => {
         return `${repoUrl}?id=${videoId}`;
     },
 
-    getManifestFileUrl: (manifestUrl, manifestFileName) => {
+    getManifestFileUrl: (manifestUrl, manifestFileName, player) => {
         return manifestUrl;
     },
 
-    loadVideoManifest: async function (url, config) {
+    loadVideoManifest: async function (url, config, player) {
         const loadEpisode = async () => {
             const response = await fetch(url);
 
@@ -43,9 +43,8 @@ const initParams = {
         }
 
         const loadStats = async () => {
-            const videoId = await this.getVideoId();
+            const videoId = await this.getVideoId(config,player);
             const response = await fetch(`/usertracking/stats.json?id=${videoId}`);
-            console.log(response);
             if (response.ok) {
                 const data = await response.json();
                 return data.stats;
@@ -55,14 +54,14 @@ const initParams = {
             }
         }
 
-        const data = await loadEpisode();        
+        const data = await loadEpisode();
         const stats = await loadStats();
         if (stats) {
             data.metadata.views = stats.views;
         }
 
         if (data === null) {
-            console.log("Try to load me.json")
+            player.log.info("Try to load me.json")
             // Check me.json, if the user is not logged in, redirect to login
             const data = await fetch('/info/me.json');
             const me = await data.json();
@@ -90,6 +89,6 @@ const initParams = {
 let paella = new Paella('player-container', initParams);
 
 paella.loadManifest()
-    .then(() => console.log("done"))
-    .catch(e => console.error(e));
+    .then(() => paella.log.info("Paella player load done"))
+    .catch(e => paella.log.error(e));
 
