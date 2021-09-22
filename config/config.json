@@ -201,6 +201,12 @@
             "enabled": true,
             "parentContainer": "toolsGroup",
             "description": "Audio transcriptions"
+        },
+
+        "es.upv.paella.episodesFromSeries": {
+            "enabled": true,
+            "maxCount": 10,
+            "description": "Videos in this series"
         }
     }
 }
