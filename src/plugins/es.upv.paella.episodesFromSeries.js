@@ -4,7 +4,16 @@ import {
     translate
 } from 'paella-core';
 
+import ListIcon from '../icons/list.svg';
+
+import '../css/EpisodesFromSeries.css';
+
 export default class EpisodesFromSeriesPlugin extends PopUpButtonPlugin {
+
+    async load() {
+        this.icon = ListIcon;
+    }
+
     async getContent() {
         const {
             series,

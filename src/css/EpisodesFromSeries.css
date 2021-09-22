@@ -1,0 +1,17 @@
+
+.episodes-from-series {
+    font-family: sans-serif;
+    max-width: 400px;
+}
+
+.episodes-from-series li {
+    list-style: none;
+}
+
+.episodes-from-series a {
+    color: white;
+}
+
+.episodes-from-series a:hover {
+    color: grey;
+}
