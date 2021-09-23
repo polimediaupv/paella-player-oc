@@ -169,6 +169,31 @@ function processSegments(episode, manifest, config) {
     }
 }
 
+export function getVideoPreview(mediapackage, config) {
+    const { attachments } = mediapackage;
+    let videoPreview = null;
+
+    let attachment = attachments?.attachment || [];
+    if (!Array.isArray(attachment)) {
+        attachment = [attachment];
+    }
+
+    const videoPreviewAttachments = config.videoPreviewAttachments || [
+        "presenter/player+preview",
+        "presentation/player+preview"
+    ];
+    attachment.forEach(att => {
+        videoPreviewAttachments.some(validAttachment => {
+            if (validAttachment === att.type) {
+                videoPreview = att.url;
+            }
+            return videoPreview !== null;
+        })
+    });
+
+    return videoPreview;
+}
+
 function processAttachments(episode, manifest, config) {
     const { attachments } = episode.mediapackage;
     const previewImages = [];
