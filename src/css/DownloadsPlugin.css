@@ -1,0 +1,18 @@
+
+.downloads-plugin {
+    font-family: sans-serif;
+}
+
+.downloads-plugin ul {
+    list-style: none;
+    padding: 0;
+}
+
+.downloads-plugin a {
+    color: white;
+}
+
+.downloads-plugin a:hover {
+    color: lightgray;
+}
+

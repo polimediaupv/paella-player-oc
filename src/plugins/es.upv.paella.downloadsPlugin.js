@@ -4,6 +4,8 @@ import {
     translate
 } from 'paella-core';
 
+import '../css/DownloadsPlugin.css';
+
 import DownloadIcon from '../icons/download.svg';
 
 export default class DownloadsPlugin extends PopUpButtonPlugin {
