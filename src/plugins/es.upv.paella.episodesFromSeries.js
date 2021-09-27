@@ -25,10 +25,9 @@ export default class EpisodesFromSeriesPlugin extends PopUpButtonPlugin {
         const container = createElementWithHtmlText(`
             <div class="episodes-from-series">
                 <h4>${ translate('Videos in series') } ${ seriestitle }</h4>
-                <ul>
-                </ul>
             </div>
         `);
+        const list = createElementWithHtmlText(`<ul></ul>`, container);
 
         const sid = series;
         const limit = this.config.maxCount || 5;
@@ -46,7 +45,7 @@ export default class EpisodesFromSeriesPlugin extends PopUpButtonPlugin {
                         ${dcTitle}
                     </a>
                 </li>
-                `,container);
+                `,list);
             });
         }
         return container;
