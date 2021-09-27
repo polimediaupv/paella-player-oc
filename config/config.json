@@ -207,6 +207,10 @@
             "enabled": true,
             "maxCount": 10,
             "description": "Videos in this series"
+        },
+
+        "es.upv.paella.downloadsPlugin": {
+            "enabled": true
         }
     }
 }
