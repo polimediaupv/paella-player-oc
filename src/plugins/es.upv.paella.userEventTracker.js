@@ -18,6 +18,8 @@ export default class UserEventTrackerPlugin extends EventLogPlugin {
 
 	async onEvent(event, params) {
 		const id = this.player.videoId;
+		// TODO: extract data from button_press, show_popup and hide_popup events
+		
 		await this.player.data.write(
 			'userTracking',
 			{ id },

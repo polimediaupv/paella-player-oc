@@ -215,6 +215,13 @@
 
         "es.upv.paella.userEventTracker": {
             "enabled": true
+        },
+
+        "es.upv.paella.debug.userTrackingDataPlugin": {
+            "enabled": true,
+            "context": [
+                "userTracking"
+            ]
         }
     }
 }

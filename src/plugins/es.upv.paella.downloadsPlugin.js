@@ -26,8 +26,6 @@ export default class DownloadsPlugin extends PopUpButtonPlugin {
                 })
             }
         });
-
-        console.log(this._downloads);
     }
 
     async getContent() {
