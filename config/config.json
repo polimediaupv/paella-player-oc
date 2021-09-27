@@ -211,6 +211,10 @@
 
         "es.upv.paella.downloadsPlugin": {
             "enabled": true
+        },
+
+        "es.upv.paella.userEventTracker": {
+            "enabled": true
         }
     }
 }
