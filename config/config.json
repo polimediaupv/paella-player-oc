@@ -210,7 +210,9 @@
         },
 
         "es.upv.paella.downloadsPlugin": {
-            "enabled": true
+            "enabled": true,
+            "parentContainer": "toolsGroup",
+            "description": "Downloads"
         },
 
         "es.upv.paella.userEventTracker": {
