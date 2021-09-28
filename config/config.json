@@ -227,8 +227,8 @@
         },
 
         "es.upv.paella.analytics.userTrackingDataPlugin": {
-            "enabled": true,
-            "trackingId": "test",
+            "enabled": false,
+            "trackingId": "configure_your_tracking_id_here",
             "domain": "",
             "category": true,
             "context": [
