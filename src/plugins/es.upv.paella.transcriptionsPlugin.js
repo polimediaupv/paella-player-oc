@@ -62,7 +62,6 @@ export default class TranscriptionsPlugin extends PopUpButtonPlugin {
     async isEnabled() {
         const enabled = await super.isEnabled();
         this.transcriptions = this.player.videoManifest.transcriptions;
-        console.log(this.transcriptions);
         return enabled && this.transcriptions.length > 0;
     }
 

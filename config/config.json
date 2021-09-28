@@ -224,6 +224,16 @@
             "context": [
                 "userTracking"
             ]
+        },
+
+        "es.upv.paella.analytics.userTrackingDataPlugin": {
+            "enabled": true,
+            "trackingId": "test",
+            "domain": "",
+            "category": true,
+            "context": [
+                "userTracking"
+            ]
         }
     }
 }
