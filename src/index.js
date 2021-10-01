@@ -3,6 +3,7 @@ import { addDictionary, Paella } from 'paella-core';
 import getBasicPluginContext from 'paella-basic-plugins';
 import getSlidePluginContext from 'paella-slide-plugins';
 import getZoomPluginContext from 'paella-zoom-plugin';
+import getUserTrackingPluginContext from 'paella-user-tracking';
 
 import EpisodeConversor from './js/EpisodeConversor.js';
 
@@ -13,7 +14,8 @@ const initParams = {
         require.context("./plugins", true, /\.js/),
         getBasicPluginContext(),
         getSlidePluginContext(),
-        getZoomPluginContext()
+        getZoomPluginContext(),
+        getUserTrackingPluginContext()
     ],
     configResourcesUrl: '/paella/config/',
     configUrl: '/paella/config/config.json',
