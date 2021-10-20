@@ -190,7 +190,8 @@
         "es.upv.paella.toolsGroupPlugin": {
             "enabled": true,
             "side": "right",
-            "groupName": "toolsGroup"
+            "groupName": "toolsGroup",
+            "description": "See more tools"
         },
 
         "es.upv.paella.descriptionPlugin": {
